@@ -278,7 +278,7 @@ function Menu() {
             ? "bg-black/30 px-3 pt-2 rounded-[20%] text-white text-2xl"
             : "hover:bg-black/30 transition transform duration-200 ease-in-out px-3 pt-2 rounded-[20%] text-white text-2xl"
         }
-        href="/blog"
+        href="https://leadafriqueblog.vercel.app/"
       >
         <FaBloggerB />
         <p className="text-[8px] ml-1">Blog</p>
