@@ -220,9 +220,8 @@ function Contacts() {
           width="100%"
           height="450"
           style={{ border: "0" }}
-          allowFullScreen=""
+          allowFullScreen
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
     </div>
