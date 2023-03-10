@@ -13,3 +13,4 @@ export const PageWrapper = ({ children }) => (
     </AnimatePresence>
   </div>
 );
+export default PageWrapper;
