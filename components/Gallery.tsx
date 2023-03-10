@@ -337,7 +337,7 @@ function Gallery() {
                 <div
                   className="pics"
                   key={item.id}
-                  onClick={() => getImg(item.imgSrc)}
+                  onClick={() => getImg(item.imgSrc.src)}
                 >
                   <Image
                     loading="lazy"
