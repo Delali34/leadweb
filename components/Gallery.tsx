@@ -44,12 +44,12 @@ import img42 from "../public/gyla (78).jpg";
 import img43 from "../public/gyla (37).jpg";
 import img44 from "../public/gyla (38).jpg";
 import img45 from "../public/gyla (39).jpg";
-import img46 from "../public/gyla (40).jpg";
-import img101 from "../public/gyla (53).jpg";
-import img102 from "../public/gyla (54).jpg";
-import img103 from "../public/gyla (55).jpg";
-import img104 from "../public/gyla (56).jpg";
-import img105 from "../public/gyla (57).jpg";
+// import img46 from "../public/gyla (40).jpg";
+// import img101 from "../public/gyla (53).jpg";
+// import img102 from "../public/gyla (54).jpg";
+// import img103 from "../public/gyla (55).jpg";
+// import img104 from "../public/gyla (56).jpg";
+// import img105 from "../public/gyla (57).jpg";
 import img106 from "../public/gyla (58).jpg";
 import img107 from "../public/gyla (59).jpg";
 import img108 from "../public/gyla (60).jpg";
@@ -166,7 +166,7 @@ function Gallery() {
     { id: 43, category: "Second", imgSrc: img43 },
     { id: 44, category: "Second", imgSrc: img44 },
     { id: 45, category: "Second", imgSrc: img45 },
-    { id: 46, category: "Second", imgSrc: img46 },
+    // { id: 46, category: "Second", imgSrc: img46 },
     { id: 47, category: "First", imgSrc: img47 },
     { id: 48, category: "First", imgSrc: img48 },
     { id: 49, category: "First", imgSrc: img49 },
@@ -214,11 +214,11 @@ function Gallery() {
     { id: 98, category: "First", imgSrc: img98 },
     { id: 99, category: "First", imgSrc: img99 },
     { id: 100, category: "Second", imgSrc: img100 },
-    { id: 101, category: "Second", imgSrc: img101 },
-    { id: 102, category: "Second", imgSrc: img102 },
-    { id: 103, category: "Second", imgSrc: img103 },
-    { id: 104, category: "Second", imgSrc: img104 },
-    { id: 105, category: "Second", imgSrc: img105 },
+    // { id: 101, category: "Second", imgSrc: img101 },
+    // { id: 102, category: "Second", imgSrc: img102 },
+    // { id: 103, category: "Second", imgSrc: img103 },
+    // { id: 104, category: "Second", imgSrc: img104 },
+    // { id: 105, category: "Second", imgSrc: img105 },
     { id: 106, category: "Second", imgSrc: img106 },
     { id: 107, category: "Second", imgSrc: img107 },
     { id: 108, category: "Second", imgSrc: img108 },
@@ -231,12 +231,12 @@ function Gallery() {
     { id: 115, category: "Second", imgSrc: img115 },
   ];
 
-  const getImg = (imgSrc) => {
+  const getImg = (imgSrc: string) => {
     setTempImgSrc(imgSrc);
     setModel(true);
   };
 
-  const filterImages = (category) => {
+  const filterImages = (category: string) => {
     setFilter(category);
     setShowMenu(false);
   };
