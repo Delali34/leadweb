@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { useRef } from "react";
 
 import {
   AiFillLinkedin,
@@ -12,13 +11,6 @@ import {
 import {} from "react-icons/ai";
 
 function Team() {
-  const imageRef = useRef<HTMLImageElement>(null);
-
-  const handleImageLoad = () => {
-    if (imageRef.current) {
-      imageRef.current.classList.remove("loading");
-    }
-  };
   return (
     <div className="bg-black">
       <div className="max-w-7xl mx-auto pt-20 pb-40">
@@ -39,9 +31,7 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
-              loading="eager"
-              onLoad={handleImageLoad}
-              ref={imageRef}
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"
@@ -77,9 +67,7 @@ function Team() {
             className="md:pt-32 p-10"
           >
             <Image
-              loading="eager"
-              onLoad={handleImageLoad}
-              ref={imageRef}
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] anim blur-image"
@@ -114,9 +102,7 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
-              loading="eager"
-              onLoad={handleImageLoad}
-              ref={imageRef}
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"
@@ -153,9 +139,7 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
-              loading="eager"
-              onLoad={handleImageLoad}
-              ref={imageRef}
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"
@@ -190,9 +174,7 @@ function Team() {
             className="md:pt-32 p-10"
           >
             <Image
-              loading="eager"
-              onLoad={handleImageLoad}
-              ref={imageRef}
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"
@@ -229,9 +211,7 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
-              loading="eager"
-              onLoad={handleImageLoad}
-              ref={imageRef}
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"
@@ -266,9 +246,7 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
-              loading="eager"
-              onLoad={handleImageLoad}
-              ref={imageRef}
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"

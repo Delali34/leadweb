@@ -3,7 +3,6 @@ import Image from "next/image";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { IoFilterOutline } from "react-icons/io5";
 import { IoMdDoneAll } from "react-icons/io";
-import { useRef } from "react";
 
 import { motion } from "framer-motion";
 // import img7 from "../public/gyla.jpg";
@@ -114,13 +113,6 @@ import img113 from "../public/gyla (75).webp";
 import img114 from "../public/gyla (76).webp";
 // import img115 from "../public/gyla (79).webp";
 function Gallery() {
-  const imageRef = useRef<HTMLImageElement>(null);
-
-  const handleImageLoad = () => {
-    if (imageRef.current) {
-      imageRef.current.classList.remove("loading");
-    }
-  };
   const [model, setModel] = useState(false);
   const [tempImgSrc, setTempImgSrc] = useState("");
   const [filter, setFilter] = useState("All");
@@ -321,17 +313,6 @@ function Gallery() {
                     <IoMdDoneAll className="h-5 w-5 inline-block ml-2" />
                   )}
                 </button>
-                {/* <button
-                  className={`${
-                    filter === "Third" ? "bg-purple-500 text-white  " : ""
-                  } block px-4 py-2 text-sm border border-purple-500 w-[250px] hover:bg-purple-500 hover:text-white xl:mb-2 `}
-                  onClick={() => filterImages("Third")}
-                >
-                  Learning to learn
-                  {filter === "Third" && (
-                    <IoMdDoneAll className="h-5 w-5 inline-block ml-2" />
-                  )}
-                </button> */}
               </motion.div>
             </div>
           </div>
@@ -356,9 +337,7 @@ function Gallery() {
                   }}
                 >
                   <Image
-                    loading="eager"
-                    onLoad={handleImageLoad}
-                    ref={imageRef}
+                    loading="lazy"
                     width={1000}
                     height={700}
                     src={item.imgSrc}

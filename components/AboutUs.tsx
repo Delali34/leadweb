@@ -12,7 +12,7 @@ function AboutUs() {
         </h1>
         <div className="md:mt-40 mt-8 lg:mt-20">
           <Image
-            loading="lazy"
+            priority
             width={2000}
             height={1000}
             className="lg:h-[650px] blur-image"
