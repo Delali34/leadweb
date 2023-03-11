@@ -29,8 +29,8 @@ function podcast() {
         <div className="relative md:h-[30%] md:w-[30%] m-5">
           <Image
             loading="lazy"
-            width={500}
-            height={500}
+            width={300}
+            height={300}
             className="w-[100%]"
             src="/G4C COVER 2.webp"
             alt=""

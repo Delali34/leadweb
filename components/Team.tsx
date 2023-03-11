@@ -31,6 +31,7 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px]"
@@ -66,6 +67,7 @@ function Team() {
             className="md:pt-32 p-10"
           >
             <Image
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] anim"
@@ -100,6 +102,7 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] "
@@ -136,6 +139,7 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] "
@@ -170,6 +174,7 @@ function Team() {
             className="md:pt-32 p-10"
           >
             <Image
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] "
@@ -206,6 +211,7 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] "
@@ -240,6 +246,7 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
+              loading="lazy"
               width={500}
               height={500}
               className="h-[400px] w-[400px] "

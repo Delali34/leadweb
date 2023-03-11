@@ -10,25 +10,16 @@ function AboutUs() {
         <h1 className="md:text-[80px] font-font font-semibold text-[40px] md:pl-0 pl-10">
           About Us
         </h1>
-        <motion.div
-          initial={{
-            y: 0,
-            opacity: 0,
-            scale: 0,
-          }}
-          transition={{ duration: 0.3 }}
-          whileInView={{ opacity: 1, y: 0, scale: 1 }}
-          viewport={{ once: true }}
-          className="md:mt-40 mt-8 lg:mt-20"
-        >
+        <div className="md:mt-40 mt-8 lg:mt-20">
           <Image
+            loading="lazy"
             width={2000}
             height={1000}
             className="lg:h-[650px] "
             src="/gyla (11).webp"
             alt=""
           />
-        </motion.div>
+        </div>
       </div>
       <motion.div
         initial={{
@@ -57,6 +48,7 @@ function AboutUs() {
           <div className="lg:flex gap-6 pt-20">
             <div className="bg-white xl:w-[350px] xl:h-[350px] lg:w-[250px] lg:h-[250px] p-3 lg:pt-16 rounded-sm">
               <Image
+                loading="lazy"
                 width={50}
                 height={50}
                 className="mr-auto ml-auto"
@@ -72,6 +64,7 @@ function AboutUs() {
             </div>
             <div className="bg-white xl:w-[350px] xl:h-[350px] lg:w-[250px] lg:h-[250px] p-3 rounded-sm lg:pt-16 mt-8 lg:mt-0">
               <Image
+                loading="lazy"
                 width={50}
                 height={50}
                 className="mr-auto ml-auto"
