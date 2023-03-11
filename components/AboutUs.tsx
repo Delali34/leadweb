@@ -22,10 +22,10 @@ function AboutUs() {
           className="md:mt-40 mt-8 lg:mt-20"
         >
           <Image
-            width={6000}
-            height={3000}
+            width={2000}
+            height={1000}
             className="lg:h-[650px] "
-            src="/pexels-fauxels-3184419.jpg"
+            src="/gyla (11).webp"
             alt=""
           />
         </motion.div>
@@ -56,7 +56,9 @@ function AboutUs() {
           </div>
           <div className="lg:flex gap-6 pt-20">
             <div className="bg-white xl:w-[350px] xl:h-[350px] lg:w-[250px] lg:h-[250px] p-3 lg:pt-16 rounded-sm">
-              <img
+              <Image
+                width={50}
+                height={50}
                 className="mr-auto ml-auto"
                 src="/icons8-mission-80 (1).png"
                 alt=""
@@ -69,7 +71,9 @@ function AboutUs() {
               </p>
             </div>
             <div className="bg-white xl:w-[350px] xl:h-[350px] lg:w-[250px] lg:h-[250px] p-3 rounded-sm lg:pt-16 mt-8 lg:mt-0">
-              <img
+              <Image
+                width={50}
+                height={50}
                 className="mr-auto ml-auto"
                 src="/icons8-surprise-64.png"
                 alt=""
