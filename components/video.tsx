@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import Image from "next/image";
 
 const VideoPlayer: React.FC = () => {
   const [playing, setPlaying] = useState(false);
@@ -41,7 +42,7 @@ const VideoPlayer: React.FC = () => {
       <video
         className="w-full h-full object-cover"
         ref={videoRef}
-        src="/NEW MONTAGE 2023.mp4"
+        src="/NEW MONTAGE 2023 (1) (1).webm"
         onClick={handlePlayPause}
       />
       <div className="absolute bottom-0 left-0 right-0">
@@ -52,19 +53,15 @@ const VideoPlayer: React.FC = () => {
                 playing ? "hidden" : "block bg-purple-500"
               } focus:outline-none`}
               onClick={handlePlayPause}
-            >
-              <img src="/icons8-play-button-circled-30.png" alt="" />
-            </button>
+            ></button>
             <button
               className={`${
                 playing ? "block bg-purple-500" : "hidden"
               } focus:outline-none ml-4`}
               onClick={handlePlayPause}
-            >
-              <img src="/icons8-pause-button-30 (1).png" alt="" />
-            </button>
+            ></button>
           </div>
-          <div className="flex hidden lg:block ">
+          <div className="flex lg:block ">
             {/* <button
               className="md:block ml-4 focus:outline-none hidden "
               onClick={handleMute}
@@ -75,7 +72,12 @@ const VideoPlayer: React.FC = () => {
               className="ml-4 focus:outline-none"
               onClick={handleFullScreen}
             >
-              <img src="/icons8-full-screen-30 (1).png" alt="" />
+              <Image
+                width={50}
+                height={50}
+                src="/icons8-full-screen-30 (1).png"
+                alt=""
+              />
             </button>
           </div>
         </div>
@@ -103,7 +105,9 @@ const VideoPlayer: React.FC = () => {
         } absolute inset-0 h-full w-full flex items-center justify-center`}
         onClick={handlePlayPause}
       >
-        <img
+        <Image
+          width={50}
+          height={50}
           className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
           src="/icons8-play-button-circled-90.png"
           alt=""

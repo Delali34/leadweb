@@ -13,7 +13,7 @@ function EventCard() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className="w-32 h-32 rounded-full border border-purple-500 xl:[200px] object-cover object-center"
-        src="/SUMMER CAMP LOGO.png"
+        src="/summercamp.webp"
         alt=""
       />
       <div className="px-0 md:px-10">

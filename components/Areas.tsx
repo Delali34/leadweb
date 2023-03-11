@@ -35,13 +35,11 @@ function Areas() {
               className="p-5"
               width={500}
               height={500}
-              src="/G4C COVER 1.png"
+              src="/G4C COVER 1.webp"
               alt=""
             />
 
-            <p className="flex items-center gap-1 px-5 underline">
-              Wact here <AiFillPlayCircle className="text-purple-500" />
-            </p>
+            <p className="flex items-center gap-1 px-5 underline">Wact here</p>
           </Link>
         </motion.div>
         <motion.div
@@ -61,13 +59,11 @@ function Areas() {
               className="p-5"
               width={500}
               height={500}
-              src="/G4C COVER 14.png"
+              src="/G4C COVER 14.webp"
               alt=""
             />
 
-            <p className="flex items-center gap-1 px-5 underline">
-              Watch here <AiFillPlayCircle className="text-purple-500" />
-            </p>
+            <p className="flex items-center gap-1 px-5 underline">Watch here</p>
           </Link>
         </motion.div>
         <motion.div
@@ -88,13 +84,11 @@ function Areas() {
               className="p-5"
               width={500}
               height={500}
-              src="/G4C COVER 15.png"
+              src="/G4C COVER 15.webp"
               alt=""
             />
 
-            <p className="flex items-center gap-1 px-5 underline">
-              Watch here <AiFillPlayCircle className="text-purple-500" />
-            </p>
+            <p className="flex items-center gap-1 px-5 underline">Watch here</p>
           </Link>
         </motion.div>
         <motion.div
@@ -114,13 +108,11 @@ function Areas() {
               className="p-5"
               width={500}
               height={500}
-              src="/G4C COVER 16 - Copy.png"
+              src="/G4C COVER 16.webp"
               alt=""
             />
 
-            <p className="flex items-center gap-1 px-5 underline">
-              Watch here <AiFillPlayCircle className="text-purple-500" />
-            </p>
+            <p className="flex items-center gap-1 px-5 underline">Watch here</p>
           </Link>
         </motion.div>
         <motion.div
@@ -140,13 +132,11 @@ function Areas() {
               className="p-5"
               width={500}
               height={500}
-              src="/G4C COVER 17 - Copy.png"
+              src="/G4C COVER 17.webp"
               alt=""
             />
 
-            <p className="flex items-center gap-1 px-5 underline">
-              Watch here <AiFillPlayCircle className="text-purple-500" />
-            </p>
+            <p className="flex items-center gap-1 px-5 underline">Watch here</p>
           </Link>
         </motion.div>
         <motion.div
@@ -166,13 +156,11 @@ function Areas() {
               className="p-5"
               width={500}
               height={500}
-              src="/G4C COVER 2.png"
+              src="/G4C COVER 2.webp"
               alt=""
             />
 
-            <p className="flex items-center gap-1 px-5 underline">
-              Watch here <AiFillPlayCircle className="text-purple-500" />
-            </p>
+            <p className="flex items-center gap-1 px-5 underline">Watch here</p>
           </Link>
         </motion.div>
       </div>

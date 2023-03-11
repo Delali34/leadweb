@@ -9,13 +9,13 @@ import { AiOutlineTwitter } from "react-icons/ai";
 function Footer() {
   return (
     <div className="bg-purple-500 ">
-      <div className="max-w-7xl md:flex  items-center justify-center mx-auto md:px-10 pb-[120px] md:pb-0 gap-10">
+      <div className="max-w-7xl md:flex  items-center justify-center mx-auto md:px-10 pb-[120px]  md:pb-[100px] md:pt-[50px] gap-10">
         <div className="flex justify-center md:block ">
           <Image
             width={100}
             height={100}
             className="py-5 w-[50px] h-[100px] lg:w-[] lg:h-[] "
-            src="/image 1.png "
+            src="/logo.webp"
             alt=""
           />
         </div>

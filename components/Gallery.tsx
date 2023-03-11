@@ -5,122 +5,121 @@ import { IoFilterOutline } from "react-icons/io5";
 import { IoMdDoneAll } from "react-icons/io";
 
 import { motion } from "framer-motion";
-import img7 from "../public/gyla.jpg";
-import img8 from "../public/gyla22.jpg";
-import img9 from "../public/gyla (1).jpg";
-import img10 from "../public/gyla (4).jpg";
-import img11 from "../public/gyla (5).jpg";
-import img12 from "../public/gyla (6).jpg";
-import img13 from "../public/gyla (7).jpg";
-import img14 from "../public/gyla (8).jpg";
-import img15 from "../public/gyla (9).jpg";
-import img16 from "../public/gyla (10).jpg";
-import img17 from "../public/gyla (11).jpg";
-import img18 from "../public/gyla (12).jpg";
-import img19 from "../public/gyla (13).jpg";
-import img20 from "../public/gyla (14).jpg";
-import img21 from "../public/gyla (15).jpg";
-import img22 from "../public/gyla (16).jpg";
-import img23 from "../public/gyla (17).jpg";
-import img24 from "../public/gyla (18).jpg";
-import img25 from "../public/gyla (19).jpg";
-import img26 from "../public/gyla (20).jpg";
-import img27 from "../public/gyla (21).jpg";
-import img28 from "../public/gyla (22).jpg";
-import img29 from "../public/gyla (23).jpg";
-import img30 from "../public/gyla (24).jpg";
-import img31 from "../public/gyla (25).jpg";
-import img32 from "../public/gyla (26).jpg";
-import img33 from "../public/gyla (27).jpg";
-import img34 from "../public/gyla (28).jpg";
-import img35 from "../public/gyla (29).jpg";
-import img36 from "../public/gyla (30).jpg";
-import img37 from "../public/gyla (31).jpg";
-import img38 from "../public/gyla (32).jpg";
-import img39 from "../public/gyla (33).jpg";
-import img40 from "../public/gyla (34).jpg";
-import img41 from "../public/gyla (35).jpg";
-import img42 from "../public/gyla (78).jpg";
-import img43 from "../public/gyla (37).jpg";
-import img44 from "../public/gyla (38).jpg";
-import img45 from "../public/gyla (39).jpg";
+// import img7 from "../public/gyla.jpg";
+// import img8 from "../public/gyla22.jpg";
+import img9 from "../public/gyla (1).webp";
+import img10 from "../public/gyla (4).webp";
+import img11 from "../public/gyla (5).webp";
+import img12 from "../public/gyla (6).webp";
+import img13 from "../public/gyla (7).webp";
+import img14 from "../public/gyla (8).webp";
+import img15 from "../public/gyla (9).webp";
+import img16 from "../public/gyla (10).webp";
+import img17 from "../public/gyla (11).webp";
+import img18 from "../public/gyla (12).webp";
+import img19 from "../public/gyla (13).webp";
+import img20 from "../public/gyla (14).webp";
+import img21 from "../public/gyla (15).webp";
+import img22 from "../public/gyla (16).webp";
+import img23 from "../public/gyla (17).webp";
+import img24 from "../public/gyla (18).webp";
+import img25 from "../public/gyla (19).webp";
+import img26 from "../public/gyla (20).webp";
+import img27 from "../public/gyla (21).webp";
+import img28 from "../public/gyla (22).webp";
+import img29 from "../public/gyla (23).webp";
+import img30 from "../public/gyla (24).webp";
+import img31 from "../public/gyla (25).webp";
+import img32 from "../public/gyla (26).webp";
+import img33 from "../public/gyla (27).webp";
+import img34 from "../public/gyla (28).webp";
+import img35 from "../public/gyla (29).webp";
+import img36 from "../public/gyla (30).webp";
+import img37 from "../public/gyla (31).webp";
+import img38 from "../public/gyla (32).webp";
+import img39 from "../public/gyla (33).webp";
+import img40 from "../public/gyla (34).webp";
+import img41 from "../public/gyla (35).webp";
+// import img42 from "../public/gyla (78).webp";
+import img43 from "../public/gyla (37).webp";
+import img44 from "../public/gyla (38).webp";
+import img45 from "../public/gyla (39).webp";
 // import img46 from "../public/gyla (40).jpg";
 // import img101 from "../public/gyla (53).jpg";
 // import img102 from "../public/gyla (54).jpg";
 // import img103 from "../public/gyla (55).jpg";
 // import img104 from "../public/gyla (56).jpg";
 // import img105 from "../public/gyla (57).jpg";
-import img106 from "../public/gyla (58).jpg";
-import img107 from "../public/gyla (59).jpg";
-import img108 from "../public/gyla (60).jpg";
-import img47 from "../public/camp (1).jpg";
-import img48 from "../public/camp (4).jpg";
-import img49 from "../public/camp (5).jpg";
-import img50 from "../public/camp (6).jpg";
-import img51 from "../public/camp (7).jpg";
-import img52 from "../public/camp (8).jpg";
-import img53 from "../public/camp (9).jpg";
-import img54 from "../public/camp (10).jpg";
-import img55 from "../public/camp (11).jpg";
-import img56 from "../public/camp (12).jpg";
-import img57 from "../public/camp (13).jpg";
-import img58 from "../public/camp (14).jpg";
-import img59 from "../public/camp (15).jpg";
-import img60 from "../public/camp (16).jpg";
-import img61 from "../public/camp (17).jpg";
-import img62 from "../public/camp (18).jpg";
-import img63 from "../public/camp (19).jpg";
-import img64 from "../public/camp (20).jpg";
-import img65 from "../public/camp (21).jpg";
-import img66 from "../public/camp (22).jpg";
-import img67 from "../public/camp (23).jpg";
-import img68 from "../public/camp (24).jpg";
-import img69 from "../public/camp (25).jpg";
-import img70 from "../public/camp (26).jpg";
-import img71 from "../public/camp (27).jpg";
-import img72 from "../public/camp (28).jpg";
-import img73 from "../public/camp (29).jpg";
-import img74 from "../public/camp (30).jpg";
-import img75 from "../public/camp (31).jpg";
-import img76 from "../public/camp (32).jpg";
-import img77 from "../public/camp (33).jpg";
-import img78 from "../public/camp (34).jpg";
-import img79 from "../public/camp (35).jpg";
-import img80 from "../public/camp (36).jpg";
-import img81 from "../public/camp (37).jpg";
-import img82 from "../public/camp (38).jpg";
-import img83 from "../public/camp (39).jpg";
-import img84 from "../public/gyla (40).jpg";
-import img85 from "../public/camp (25).jpg";
-import img86 from "../public/camp (26).jpg";
-import img87 from "../public/camp (27).jpg";
-import img88 from "../public/camp (28).jpg";
-import img89 from "../public/camp (29).jpg";
-import img91 from "../public/camp (31).jpg";
-import img92 from "../public/camp (32).jpg";
-import img93 from "../public/camp (33).jpg";
-import img94 from "../public/camp (34).jpg";
-import img95 from "../public/camp (35).jpg";
-import img96 from "../public/camp (36).jpg";
-import img97 from "../public/camp (37).jpg";
-import img98 from "../public/camp (38).jpg";
-import img99 from "../public/camp (39).jpg";
-import img100 from "../public/gyla (81).jpg";
-import img109 from "../public/gyla (71).jpg";
-import img110 from "../public/gyla (72).jpg";
-import img111 from "../public/gyla (73).jpg";
-import img112 from "../public/gyla (74).jpg";
-import img113 from "../public/gyla (75).jpg";
-import img114 from "../public/gyla (76).jpg";
-import img115 from "../public/gyla (79).jpg";
+import img106 from "../public/gyla (58).webp";
+import img107 from "../public/gyla (59).webp";
+import img108 from "../public/gyla (60).webp";
+// import img47 from "../public/camp (1).jpg";
+import img48 from "../public/camp (4).webp";
+import img49 from "../public/camp (5).webp";
+import img50 from "../public/camp (6).webp";
+import img51 from "../public/camp (7).webp";
+import img52 from "../public/camp (8).webp";
+import img53 from "../public/camp (9).webp";
+import img55 from "../public/camp (11).webp";
+import img56 from "../public/camp (12).webp";
+import img57 from "../public/camp (13).webp";
+import img58 from "../public/camp (14).webp";
+import img59 from "../public/camp (15).webp";
+import img60 from "../public/camp (16).webp";
+import img61 from "../public/camp (17).webp";
+import img62 from "../public/camp (18).webp";
+import img63 from "../public/camp (19).webp";
+import img64 from "../public/camp (20).webp";
+import img65 from "../public/camp (21).webp";
+import img66 from "../public/camp (22).webp";
+import img67 from "../public/camp (23).webp";
+import img68 from "../public/camp (24).webp";
+import img69 from "../public/camp (25).webp";
+import img70 from "../public/camp (26).webp";
+import img71 from "../public/camp (27).webp";
+import img72 from "../public/camp (28).webp";
+import img73 from "../public/camp (29).webp";
+import img74 from "../public/camp (30).webp";
+import img75 from "../public/camp (31).webp";
+import img76 from "../public/camp (32).webp";
+import img77 from "../public/camp (33).webp";
+import img78 from "../public/camp (34).webp";
+import img79 from "../public/camp (35).webp";
+import img80 from "../public/camp (36).webp";
+import img81 from "../public/camp (37).webp";
+import img82 from "../public/camp (38).webp";
+import img83 from "../public/camp (39).webp";
+import img84 from "../public/gyla (40).webp";
+import img85 from "../public/camp (25).webp";
+import img86 from "../public/camp (26).webp";
+import img87 from "../public/camp (27).webp";
+import img88 from "../public/camp (28).webp";
+import img89 from "../public/camp (29).webp";
+import img91 from "../public/camp (31).webp";
+import img92 from "../public/camp (32).webp";
+import img93 from "../public/camp (33).webp";
+import img94 from "../public/camp (34).webp";
+import img95 from "../public/camp (35).webp";
+import img96 from "../public/camp (36).webp";
+import img97 from "../public/camp (37).webp";
+import img98 from "../public/camp (38).webp";
+import img99 from "../public/camp (39).webp";
+// import img100 from "../public/gyla (81).webp";
+import img109 from "../public/gyla (71).webp";
+import img110 from "../public/gyla (72).webp";
+import img111 from "../public/gyla (73).webp";
+import img112 from "../public/gyla (74).webp";
+import img113 from "../public/gyla (75).webp";
+import img114 from "../public/gyla (76).webp";
+// import img115 from "../public/gyla (79).webp";
 function Gallery() {
   const [model, setModel] = useState(false);
   const [tempImgSrc, setTempImgSrc] = useState("");
   const [filter, setFilter] = useState("All");
   const [showMenu, setShowMenu] = useState(false);
   const data = [
-    { id: 7, category: "Second", imgSrc: img7 },
-    { id: 8, category: "Second", imgSrc: img8 },
+    // { id: 7, category: "Second", imgSrc: img7 },
+    // { id: 8, category: "Second", imgSrc: img8 },
     { id: 9, category: "Second", imgSrc: img9 },
     { id: 10, category: "Second", imgSrc: img10 },
     { id: 11, category: "Second", imgSrc: img11 },
@@ -162,19 +161,19 @@ function Gallery() {
     { id: 39, category: "Second", imgSrc: img39 },
     { id: 40, category: "Second", imgSrc: img40 },
     { id: 41, category: "Second", imgSrc: img41 },
-    { id: 42, category: "Second", imgSrc: img42 },
+    // { id: 42, category: "Second", imgSrc: img42 },
     { id: 43, category: "Second", imgSrc: img43 },
     { id: 44, category: "Second", imgSrc: img44 },
     { id: 45, category: "Second", imgSrc: img45 },
     // { id: 46, category: "Second", imgSrc: img46 },
-    { id: 47, category: "First", imgSrc: img47 },
+    // { id: 47, category: "First", imgSrc: img47 },
     { id: 48, category: "First", imgSrc: img48 },
     { id: 49, category: "First", imgSrc: img49 },
     { id: 50, category: "First", imgSrc: img50 },
     { id: 51, category: "First", imgSrc: img51 },
     { id: 52, category: "First", imgSrc: img52 },
     { id: 53, category: "First", imgSrc: img53 },
-    { id: 54, category: "First", imgSrc: img54 },
+    // { id: 54, category: "First", imgSrc: img54 },
     { id: 59, category: "First", imgSrc: img59 },
     { id: 60, category: "First", imgSrc: img60 },
     { id: 61, category: "First", imgSrc: img61 },
@@ -213,7 +212,7 @@ function Gallery() {
     { id: 97, category: "First", imgSrc: img97 },
     { id: 98, category: "First", imgSrc: img98 },
     { id: 99, category: "First", imgSrc: img99 },
-    { id: 100, category: "Second", imgSrc: img100 },
+    // { id: 100, category: "Second", imgSrc: img100 },
     // { id: 101, category: "Second", imgSrc: img101 },
     // { id: 102, category: "Second", imgSrc: img102 },
     // { id: 103, category: "Second", imgSrc: img103 },
@@ -228,7 +227,7 @@ function Gallery() {
     { id: 112, category: "Second", imgSrc: img112 },
     { id: 113, category: "Second", imgSrc: img113 },
     { id: 114, category: "Second", imgSrc: img114 },
-    { id: 115, category: "Second", imgSrc: img115 },
+    // { id: 115, category: "Second", imgSrc: img115 },
   ];
 
   const getImg = (imgSrc: string) => {
@@ -341,8 +340,8 @@ function Gallery() {
                 >
                   <Image
                     loading="lazy"
-                    width={10000}
-                    height={10000}
+                    width={2000}
+                    height={1500}
                     src={item.imgSrc}
                     alt="image"
                     className="py-2"

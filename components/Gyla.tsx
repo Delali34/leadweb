@@ -40,7 +40,7 @@ const Future = () => {
           width={2000}
           height={1500}
           className="h-[300px] md:h-[600px] w-[100%] object-cover"
-          src="/GYLA/GYLA (57).jpg"
+          src="/gyla (57).webp"
           alt=""
         />
 
@@ -71,7 +71,7 @@ const Future = () => {
           several organizations, unions, political parties, and activists.
         </p>
         <div className="p-10">
-          <Image width={1500} height={1000} src="/GYLA/GYLA (59).jpg" alt="" />
+          <Image width={1500} height={1000} src="/gyla (59).webp" alt="" />
         </div>
         <p className="p-10 font-font font-light md:text-xl text-sm">
           The duration of the opening camp was a week and the activities to be
@@ -86,7 +86,13 @@ const Future = () => {
           each other.
         </p>
         <div className="p-10">
-          <Image width={1500} height={1000} src="/GYLA/GYLA.jpg" alt="" />
+          <Image
+            loading="lazy"
+            width={1500}
+            height={1000}
+            src="/public/gly.webp"
+            alt=""
+          />
         </div>
         <p className="p-10 font-font font-light md:text-xl text-sm">
           A workbook was given to each participant to track their understanding

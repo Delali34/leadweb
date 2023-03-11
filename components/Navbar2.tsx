@@ -32,7 +32,7 @@ function Navbar() {
                 width={50}
                 height={50}
                 className="xl:w-20 xl:h-24 w-14 h-16"
-                src="/image 1.png"
+                src="/logo.webp"
                 alt=""
               />
             </div>
@@ -114,7 +114,9 @@ function Navbar() {
                       href="/youngpeople"
                       className="flex p-2  gap-5 items-center justify-center hover:ml-8 transform duration-200 ease-in-out"
                     >
-                      <img
+                      <Image
+                        width={50}
+                        height={50}
                         className="w-10 h-10"
                         src="/icons8-teenager-male-50.png"
                         alt=""
@@ -128,7 +130,9 @@ function Navbar() {
                       href="/parents"
                       className="flex p-2 -ml-8   gap-5 items-center justify-center hover:-ml-0 transform duration-200 ease-in-out"
                     >
-                      <img
+                      <Image
+                        width={50}
+                        height={50}
                         className="w-10 h-10"
                         src="/icons8-family-50.png"
                         alt=""
@@ -142,7 +146,9 @@ function Navbar() {
                       href="/educators"
                       className="flex p-2 -ml-8   gap-5 items-center justify-center hover:-ml-0 transform duration-200 ease-in-out"
                     >
-                      <img
+                      <Image
+                        width={50}
+                        height={50}
                         className="w-10 h-10"
                         src="/icons8-student-center-50.png"
                         alt=""
@@ -157,7 +163,9 @@ function Navbar() {
                       href="/corporate"
                       className="flex p-2 ml-2   gap-5 items-center justify-center hover:ml-8 transform duration-200 ease-in-out"
                     >
-                      <img
+                      <Image
+                        width={50}
+                        height={50}
                         className="w-10 h-10"
                         src="/icons8-manager-50.png"
                         alt=""
@@ -237,7 +245,9 @@ function Navbar() {
                       href="/youngresources"
                       className="flex p-2  gap-5 items-center justify-center hover:ml-8 transform duration-200 ease-in-out"
                     >
-                      <img
+                      <Image
+                        width={50}
+                        height={50}
                         className="w-10 h-10"
                         src="/icons8-teenager-male-50.png"
                         alt=""
@@ -251,7 +261,9 @@ function Navbar() {
                       href=""
                       className="flex p-2 -ml-8   gap-5 items-center justify-center hover:-ml-0 transform duration-200 ease-in-out"
                     >
-                      <img
+                      <Image
+                        width={50}
+                        height={50}
                         className="w-10 h-10"
                         src="/icons8-family-50.png"
                         alt=""
@@ -265,7 +277,9 @@ function Navbar() {
                       href="/educators"
                       className="flex p-2 -ml-8   gap-5 items-center justify-center hover:-ml-0 transform duration-200 ease-in-out"
                     >
-                      <img
+                      <Image
+                        width={50}
+                        height={50}
                         className="w-10 h-10"
                         src="/icons8-student-center-50.png"
                         alt=""
@@ -280,7 +294,9 @@ function Navbar() {
                       href="/corporate"
                       className="flex p-2 ml-2   gap-5 items-center justify-center hover:ml-8 transform duration-200 ease-in-out"
                     >
-                      <img
+                      <Image
+                        width={50}
+                        height={50}
                         className="w-10 h-10"
                         src="/icons8-manager-50.png"
                         alt=""
@@ -307,9 +323,11 @@ function Navbar() {
       </div>
       <div className=" top-0 md:hidden px-8 py-2 flex justify-between w-full items-center">
         <Link href="/">
-          <img
+          <Image
+            width={100}
+            height={100}
             className="xl:w-20 xl:h-24 w-14 h-16"
-            src="../image 1.png"
+            src="/logo.webp"
             alt=""
           />
         </Link>

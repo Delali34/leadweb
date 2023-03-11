@@ -24,7 +24,7 @@ function Contacts() {
           loading="lazy"
           width={1000}
           height={1000}
-          src="/contact.jpg"
+          src="/contact.webp"
           alt=""
         />
       </div>

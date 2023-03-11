@@ -502,7 +502,7 @@ const Future = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="md:w-[550px] md:h-[300px] ml-auto mr-auto nd:mt-36 mt-10 p-5"
-          src="/SUMMER CAMP LOGO.png"
+          src="/summercamp.webp"
           alt=""
         />
         <p className="p-10 font-font font-light md:text-xl text-sm">

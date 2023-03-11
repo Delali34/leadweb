@@ -9,6 +9,7 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { GiSandsOfTime } from "react-icons/gi";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import Image from "next/image";
 
 function Menu() {
   useEffect(() => {
@@ -105,7 +106,9 @@ function Menu() {
                 href="/youngpeople"
                 className="flex p-2  gap-5 items-center justify-center hover:ml-8 transform duration-200 ease-in-out"
               >
-                <img
+                <Image
+                  width={50}
+                  height={50}
                   className="w-5 h-5"
                   src="/icons8-teenager-male-50.png"
                   alt=""
@@ -119,7 +122,13 @@ function Menu() {
                 href="/parents"
                 className="flex p-2 -ml-8   gap-5 items-center justify-center hover:-ml-0 transform duration-200 ease-in-out"
               >
-                <img className="w-5 h-5" src="/icons8-family-50.png" alt="" />
+                <Image
+                  width={50}
+                  height={50}
+                  className="w-5 h-5"
+                  src="/icons8-family-50.png"
+                  alt=""
+                />
 
                 <p className="text-[15px]">Parenting</p>
               </Link>
@@ -129,7 +138,9 @@ function Menu() {
                 href="/educators"
                 className="flex p-2 -ml-8   gap-5 items-center justify-center hover:-ml-0 transform duration-200 ease-in-out"
               >
-                <img
+                <Image
+                  width={50}
+                  height={50}
                   className="w-5 h-5"
                   src="/icons8-student-center-50.png"
                   alt=""
@@ -144,7 +155,13 @@ function Menu() {
                 href="/corporate"
                 className="flex p-2 ml-2   gap-5 items-center justify-center hover:ml-8 transform duration-200 ease-in-out"
               >
-                <img className="w-5 h-5" src="/icons8-manager-50.png" alt="" />
+                <Image
+                  width={50}
+                  height={50}
+                  className="w-5 h-5"
+                  src="/icons8-manager-50.png"
+                  alt=""
+                />
 
                 <p className="text-[15px]">Corp. Executive</p>
               </Link>
@@ -210,7 +227,9 @@ function Menu() {
                 href="/youngresources"
                 className="flex p-2  gap-5 items-center justify-center hover:ml-8 transform duration-200 ease-in-out"
               >
-                <img
+                <Image
+                  width={50}
+                  height={50}
                   className="w-10 h-10"
                   src="/icons8-teenager-male-50.png"
                   alt=""
@@ -224,7 +243,13 @@ function Menu() {
                 href=""
                 className="flex p-2 -ml-8   gap-5 items-center justify-center hover:-ml-0 transform duration-200 ease-in-out"
               >
-                <img className="w-10 h-10" src="/icons8-family-50.png" alt="" />
+                <Image
+                  width={50}
+                  height={50}
+                  className="w-10 h-10"
+                  src="/icons8-family-50.png"
+                  alt=""
+                />
 
                 <p className="text-[15px]">Parenting</p>
               </Link>
@@ -234,7 +259,9 @@ function Menu() {
                 href="/educators"
                 className="flex p-2 -ml-8   gap-5 items-center justify-center hover:-ml-0 transform duration-200 ease-in-out"
               >
-                <img
+                <Image
+                  width={50}
+                  height={50}
                   className="w-10 h-10"
                   src="/icons8-student-center-50.png"
                   alt=""
@@ -249,7 +276,9 @@ function Menu() {
                 href="/corporate"
                 className="flex p-2 ml-2   gap-5 items-center justify-center hover:ml-8 transform duration-200 ease-in-out"
               >
-                <img
+                <Image
+                  width={50}
+                  height={50}
                   className="w-10 h-10"
                   src="/icons8-manager-50.png"
                   alt=""

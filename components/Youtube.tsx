@@ -8,7 +8,7 @@ import Video from "@/components/video";
 function Youtube() {
   return (
     <div>
-      <div className="flex w-full mt-28 hidden md:flex">
+      <div className=" w-full mt-28 hidden md:flex">
         <div className="relative w-[40%]">
           <Image
             width={500}

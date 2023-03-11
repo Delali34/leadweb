@@ -14,8 +14,8 @@ function podcast() {
       <div className=" md:flex justify-center gap-10 mt-20">
         <div className="relative md:h-[30%] md:w-[30%] m-5">
           <Image
-            width={500}
-            height={500}
+            width={300}
+            height={300}
             className="w-[100%]"
             src="/pexels-andrea-piacquadio-813940.jpg"
             alt=""

@@ -1,12 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { PageWrapper } from "./../pages/page-wrapper";
-import first from "../public/camp (4).jpg";
-import second from "../public/camp (10).jpg";
-import third from "../public/camp (54).jpg";
-import four from "../public/gyla (53).jpg";
-import five from "../public/work.jpg";
+import first from "../public/camp (4).webp";
+import second from "../public/camp (10).webp";
+import third from "../public/camp (54).webp";
+import four from "../public/gyla (53).webp";
+import five from "../public/work.webp";
 
 type Props = {};
 

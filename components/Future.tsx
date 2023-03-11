@@ -40,7 +40,7 @@ const Future = () => {
           width={1000}
           height={1000}
           className="h-[600px] w-[100%] object-cover"
-          src="/IMG_9520.JPG"
+          src="/ready.webp"
           alt=""
         />
 
@@ -108,7 +108,12 @@ const Future = () => {
           their person.{" "}
         </p>
         <div className="p-10">
-          <img src="/Canon EOS 6D 3648x2048_004616.jpg" alt="" />
+          <Image
+            width={1500}
+            height={1000}
+            src="/Canon EOS 6D 3648x2048_004616.jpg"
+            alt=""
+          />
         </div>
         <p className="p-10 font-font font-light md:text-xl text-sm">
           We strongly believe that this world is a big puzzle, and every
@@ -131,7 +136,7 @@ const Future = () => {
           earth.
         </p>
         <div className="p-10">
-          <img src="/adevu.JPG" alt="" />
+          <Image width={1500} height={1000} src="/adevu.JPG" alt="" />
         </div>
         <p className="p-10 font-font font-light md:text-xl text-sm">
           The sad bit of this fact is that, young children mostly in deprived
@@ -154,7 +159,13 @@ const Future = () => {
         <h1 className="font-font font-bold text-6xl text-[#C40C7B] underline ">
           Support <span className="text-[#472657]"> Us</span>
         </h1>
-        <img className="pt-32" src="/donate.png" alt="" />
+        <Image
+          width={1500}
+          height={1000}
+          className="pt-32"
+          src="/donate.png"
+          alt=""
+        />
       </div>
       <Footer />
     </div>
