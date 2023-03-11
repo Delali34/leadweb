@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Futuretest from "@/components/Futuretest";
+
 import Footer from "./Footer";
 
 const svgVariants = {
@@ -37,6 +37,7 @@ const Future = () => {
       "
       >
         <Image
+          loading="lazy"
           width={2000}
           height={1500}
           className="h-[300px] md:h-[600px] w-[100%] object-cover"
@@ -71,7 +72,13 @@ const Future = () => {
           several organizations, unions, political parties, and activists.
         </p>
         <div className="p-10">
-          <Image width={1500} height={1000} src="/gyla (59).webp" alt="" />
+          <Image
+            loading="lazy"
+            width={1500}
+            height={1000}
+            src="/gyla (59).webp"
+            alt=""
+          />
         </div>
         <p className="p-10 font-font font-light md:text-xl text-sm">
           The duration of the opening camp was a week and the activities to be
@@ -90,7 +97,7 @@ const Future = () => {
             loading="lazy"
             width={1500}
             height={1000}
-            src="/public/gly.webp"
+            src="/gly.webp"
             alt=""
           />
         </div>
@@ -114,15 +121,7 @@ const Future = () => {
           facing.
         </p>
       </div>
-      {/* <div>
-        <Futuretest />
-      </div> */}
-      {/* <div className="mt-40 max-w-7xl mx-auto p-10">
-        <h1 className="font-font font-bold text-6xl text-[#C40C7B] underline ">
-          Support <span className="text-[#472657]"> Us</span>
-        </h1>
-        <img className="pt-32" src="/donate.png" alt="" />
-      </div> */}
+
       <Footer />
     </div>
   );

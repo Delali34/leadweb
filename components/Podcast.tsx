@@ -14,10 +14,11 @@ function podcast() {
       <div className=" md:flex justify-center gap-10 mt-20">
         <div className="relative md:h-[30%] md:w-[30%] m-5">
           <Image
+            loading="lazy"
             width={300}
             height={300}
             className="w-[100%]"
-            src="/pexels-andrea-piacquadio-813940.jpg"
+            src="/G4C COVER 1.webp"
             alt=""
           />
           <div className="absolute inset-0 bg-black bg-opacity-70 "></div>
@@ -27,10 +28,11 @@ function podcast() {
         </div>
         <div className="relative md:h-[30%] md:w-[30%] m-5">
           <Image
+            loading="lazy"
             width={500}
             height={500}
             className="w-[100%]"
-            src="/pexels-harry-cunningham-harrydigital-7383469.jpg"
+            src="/G4C COVER 2.webp"
             alt=""
           />
           <div className="absolute inset-0 bg-black bg-opacity-70 "></div>

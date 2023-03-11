@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { AiFillPlayCircle } from "react-icons/ai";
+
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Areamo from "./Areamo";
@@ -18,151 +18,96 @@ function Areas() {
         </p>
       </div>
       <div className="mt-10  md:grid-cols-2 lg:grid-cols-3 grid-cols-1 max-w-7xl mx-auto items-center sm:grid-cols-2 hidden sm:grid">
-        <motion.div
-          initial={{
-            x: -10,
-            opacity: 0,
-          }}
-          transition={{ duration: 1.2 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+        <Link
+          href="https://www.myleadershipfarm.com/course_content/38/"
+          target="_blank"
         >
-          <Link
-            href="https://www.myleadershipfarm.com/course_content/38/"
-            target="_blank"
-          >
-            <Image
-              className="p-5"
-              width={500}
-              height={500}
-              src="/G4C COVER 1.webp"
-              alt=""
-            />
+          <Image
+            loading="lazy"
+            className="p-5"
+            width={500}
+            height={500}
+            src="/G4C COVER 1.webp"
+            alt=""
+          />
 
-            <p className="flex items-center gap-1 px-5 underline">Wact here</p>
-          </Link>
-        </motion.div>
-        <motion.div
-          initial={{
-            y: 100,
-            opacity: 0,
-          }}
-          transition={{ duration: 1.2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          <p className="flex items-center gap-1 px-5 underline">Wact here</p>
+        </Link>
+        <Link
+          href="https://www.myleadershipfarm.com/course_content/99/"
+          target="_blank"
         >
-          <Link
-            href="https://www.myleadershipfarm.com/course_content/99/"
-            target="_blank"
-          >
-            <Image
-              className="p-5"
-              width={500}
-              height={500}
-              src="/G4C COVER 14.webp"
-              alt=""
-            />
+          <Image
+            loading="lazy"
+            className="p-5"
+            width={500}
+            height={500}
+            src="/G4C COVER 14.webp"
+            alt=""
+          />
 
-            <p className="flex items-center gap-1 px-5 underline">Watch here</p>
-          </Link>
-        </motion.div>
-        <motion.div
-          initial={{
-            x: 10,
-            opacity: 0,
-          }}
-          transition={{ duration: 1.2 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          <p className="flex items-center gap-1 px-5 underline">Watch here</p>
+        </Link>{" "}
+        <Link
+          href="https://www.myleadershipfarm.com/course_content/93/"
+          target="_blank"
         >
-          {" "}
-          <Link
-            href="https://www.myleadershipfarm.com/course_content/93/"
-            target="_blank"
-          >
-            <Image
-              className="p-5"
-              width={500}
-              height={500}
-              src="/G4C COVER 15.webp"
-              alt=""
-            />
+          <Image
+            loading="lazy"
+            className="p-5"
+            width={500}
+            height={500}
+            src="/G4C COVER 15.webp"
+            alt=""
+          />
 
-            <p className="flex items-center gap-1 px-5 underline">Watch here</p>
-          </Link>
-        </motion.div>
-        <motion.div
-          initial={{
-            x: -10,
-            opacity: 0,
-          }}
-          transition={{ duration: 1.2 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          <p className="flex items-center gap-1 px-5 underline">Watch here</p>
+        </Link>
+        <Link
+          href="https://www.myleadershipfarm.com/course_content/97/"
+          target="_blank"
         >
-          <Link
-            href="https://www.myleadershipfarm.com/course_content/97/"
-            target="_blank"
-          >
-            <Image
-              className="p-5"
-              width={500}
-              height={500}
-              src="/G4C COVER 16.webp"
-              alt=""
-            />
+          <Image
+            loading="lazy"
+            className="p-5"
+            width={500}
+            height={500}
+            src="/G4C COVER 16.webp"
+            alt=""
+          />
 
-            <p className="flex items-center gap-1 px-5 underline">Watch here</p>
-          </Link>
-        </motion.div>
-        <motion.div
-          initial={{
-            y: 100,
-            opacity: 0,
-          }}
-          transition={{ duration: 1.2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          <p className="flex items-center gap-1 px-5 underline">Watch here</p>
+        </Link>
+        <Link
+          href="https://www.myleadershipfarm.com/course_content/96/"
+          target="_blank"
         >
-          <Link
-            href="https://www.myleadershipfarm.com/course_content/96/"
-            target="_blank"
-          >
-            <Image
-              className="p-5"
-              width={500}
-              height={500}
-              src="/G4C COVER 17.webp"
-              alt=""
-            />
+          <Image
+            loading="lazy"
+            className="p-5"
+            width={500}
+            height={500}
+            src="/G4C COVER 17.webp"
+            alt=""
+          />
 
-            <p className="flex items-center gap-1 px-5 underline">Watch here</p>
-          </Link>
-        </motion.div>
-        <motion.div
-          initial={{
-            x: 10,
-            opacity: 0,
-          }}
-          transition={{ duration: 1.2 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          <p className="flex items-center gap-1 px-5 underline">Watch here</p>
+        </Link>
+        <Link
+          href="https://www.myleadershipfarm.com/course_content/45/"
+          target="_blank"
         >
-          <Link
-            href="https://www.myleadershipfarm.com/course_content/45/"
-            target="_blank"
-          >
-            <Image
-              className="p-5"
-              width={500}
-              height={500}
-              src="/G4C COVER 2.webp"
-              alt=""
-            />
+          <Image
+            loading="lazy"
+            className="p-5"
+            width={500}
+            height={500}
+            src="/G4C COVER 2.webp"
+            alt=""
+          />
 
-            <p className="flex items-center gap-1 px-5 underline">Watch here</p>
-          </Link>
-        </motion.div>
+          <p className="flex items-center gap-1 px-5 underline">Watch here</p>
+        </Link>
       </div>
       <Areamo />
     </div>
