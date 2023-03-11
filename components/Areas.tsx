@@ -23,7 +23,7 @@ function Areas() {
           target="_blank"
         >
           <Image
-            loading="lazy"
+            loading="eager"
             className="p-5"
             width={500}
             height={500}
@@ -38,7 +38,7 @@ function Areas() {
           target="_blank"
         >
           <Image
-            loading="lazy"
+            loading="eager"
             className="p-5"
             width={500}
             height={500}
@@ -53,7 +53,7 @@ function Areas() {
           target="_blank"
         >
           <Image
-            loading="lazy"
+            loading="eager"
             className="p-5"
             width={500}
             height={500}
@@ -68,7 +68,7 @@ function Areas() {
           target="_blank"
         >
           <Image
-            loading="lazy"
+            loading="eager"
             className="p-5"
             width={500}
             height={500}
@@ -83,7 +83,7 @@ function Areas() {
           target="_blank"
         >
           <Image
-            loading="lazy"
+            loading="eager"
             className="p-5"
             width={500}
             height={500}
@@ -98,7 +98,7 @@ function Areas() {
           target="_blank"
         >
           <Image
-            loading="lazy"
+            loading="eager"
             className="p-5"
             width={500}
             height={500}

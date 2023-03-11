@@ -249,7 +249,7 @@ function Gallery() {
           height={10000}
           src={tempImgSrc}
           alt="image"
-          className="Image"
+          className="Image blur-image"
         />
         <AiFillCloseCircle onClick={() => setModel(false)} />
       </div>
@@ -353,7 +353,7 @@ function Gallery() {
                     height={1500}
                     src={item.imgSrc}
                     alt="image"
-                    className="py-2 w-full h-full object-cover"
+                    className="py-2 w-full h-full object-cover blur-image"
                     style={{ width: "100%", height: "100%" }}
                   />
                 </div>

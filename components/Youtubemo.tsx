@@ -8,9 +8,10 @@ function Youtubemo() {
       <Video />
       <div className="relative">
         <Image
+          loading="lazy"
           width={500}
           height={500}
-          className="w-full h-[100%] -mt-2"
+          className="w-full h-[100%] -mt-2 blur-image"
           src="/pexels-los-muertos-crew-7586474.png"
           alt=""
         />

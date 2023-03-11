@@ -16,9 +16,10 @@ function Test() {
       </div>
       <div className="mt-5 flex flex-col rounded-lg items-center">
         <Image
+          loading="lazy"
           width={100}
           height={100}
-          className="object-center"
+          className="object-center blur-image"
           src="/icons8-quote-left-100.png"
           alt=""
         />

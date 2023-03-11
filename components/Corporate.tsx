@@ -60,9 +60,10 @@ const Future = () => {
       "
       >
         <Image
+          loading="lazy"
           width={1000}
           height={1000}
-          className="md:h-[600px] h-[250px] w-[100%] object-cover"
+          className="md:h-[600px] h-[250px] w-[100%] object-cover blur-image"
           src="/gyla (60).jpg"
           alt=""
         />

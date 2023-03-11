@@ -11,9 +11,10 @@ function Youtube() {
       <div className=" w-full mt-28 hidden md:flex">
         <div className="relative w-[40%]">
           <Image
+            loading="lazy"
             width={500}
             height={500}
-            className="w-full h-[100%] "
+            className="w-full h-[100%] blur-image"
             src="/hqdefault.jpg"
             alt=""
           />

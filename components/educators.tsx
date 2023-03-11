@@ -37,9 +37,10 @@ const Future = () => {
       "
       >
         <Image
+          loading="lazy"
           width={1000}
           height={1000}
-          className="h-[300px] md:h-[600px] w-[100%] object-cover"
+          className="h-[300px] md:h-[600px] w-[100%] object-cover blur-image"
           src="/image (1).jpg"
           alt=""
         />

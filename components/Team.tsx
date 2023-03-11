@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useRef } from "react";
 
 import {
   AiFillLinkedin,
@@ -11,6 +12,13 @@ import {
 import {} from "react-icons/ai";
 
 function Team() {
+  const imageRef = useRef<HTMLImageElement>(null);
+
+  const handleImageLoad = () => {
+    if (imageRef.current) {
+      imageRef.current.classList.remove("loading");
+    }
+  };
   return (
     <div className="bg-black">
       <div className="max-w-7xl mx-auto pt-20 pb-40">
@@ -31,10 +39,12 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
-              loading="lazy"
+              loading="eager"
+              onLoad={handleImageLoad}
+              ref={imageRef}
               width={500}
               height={500}
-              className="h-[400px] w-[400px]"
+              className="h-[400px] w-[400px] blur-image"
               src="/pexels-linkedin-sales-navigator-2182970.jpg"
               alt=""
             />
@@ -67,10 +77,12 @@ function Team() {
             className="md:pt-32 p-10"
           >
             <Image
-              loading="lazy"
+              loading="eager"
+              onLoad={handleImageLoad}
+              ref={imageRef}
               width={500}
               height={500}
-              className="h-[400px] w-[400px] anim"
+              className="h-[400px] w-[400px] anim blur-image"
               src="/pexels-emmy-e-2381069.jpg"
               alt=""
             />
@@ -102,10 +114,12 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
-              loading="lazy"
+              loading="eager"
+              onLoad={handleImageLoad}
+              ref={imageRef}
               width={500}
               height={500}
-              className="h-[400px] w-[400px] "
+              className="h-[400px] w-[400px] blur-image"
               src="/pexels-karolina-grabowska-4467687.jpg"
               alt=""
             />
@@ -139,10 +153,12 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
-              loading="lazy"
+              loading="eager"
+              onLoad={handleImageLoad}
+              ref={imageRef}
               width={500}
               height={500}
-              className="h-[400px] w-[400px] "
+              className="h-[400px] w-[400px] blur-image"
               src="/pexels-bestbe-models-2282520.jpg"
               alt=""
             />
@@ -174,10 +190,12 @@ function Team() {
             className="md:pt-32 p-10"
           >
             <Image
-              loading="lazy"
+              loading="eager"
+              onLoad={handleImageLoad}
+              ref={imageRef}
               width={500}
               height={500}
-              className="h-[400px] w-[400px] "
+              className="h-[400px] w-[400px] blur-image"
               src="/pexels-andrea-piacquadio-3785104.jpg"
               alt=""
             />
@@ -211,10 +229,12 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
-              loading="lazy"
+              loading="eager"
+              onLoad={handleImageLoad}
+              ref={imageRef}
               width={500}
               height={500}
-              className="h-[400px] w-[400px] "
+              className="h-[400px] w-[400px] blur-image"
               src="/pexels-christina-morillo-1181428.jpg"
               alt=""
             />
@@ -246,10 +266,12 @@ function Team() {
             className="pt-20 p-10"
           >
             <Image
-              loading="lazy"
+              loading="eager"
+              onLoad={handleImageLoad}
+              ref={imageRef}
               width={500}
               height={500}
-              className="h-[400px] w-[400px] "
+              className="h-[400px] w-[400px] blur-image"
               src="/pexels-christina-morillo-1181428.jpg"
               alt=""
             />

@@ -38,7 +38,7 @@ export default function Header({}: Props) {
           <Image
             width={800}
             height={600}
-            className="h-screen w-full object-cover"
+            className="h-screen w-full object-cover blur-image"
             src={backgrounds[backgroundIndex]}
             alt=""
             loading="lazy"

@@ -20,8 +20,8 @@ function Contacts() {
     <div>
       <div className="relative">
         <Image
-          className="w-[100%] h-[70vh] object-cover -z-50"
-          loading="lazy"
+          className="w-[100%] h-[70vh] object-cover -z-50 blur-image"
+          loading="eager"
           width={1000}
           height={1000}
           src="/contact.webp"

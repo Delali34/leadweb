@@ -37,9 +37,10 @@ const Future = () => {
       "
       >
         <Image
+          loading="lazy"
           width={1000}
           height={1000}
-          className="h-[600px] w-[100%] object-cover"
+          className="h-[600px] w-[100%] object-cover blur-image"
           src="/ready.webp"
           alt=""
         />
@@ -109,6 +110,8 @@ const Future = () => {
         </p>
         <div className="p-10">
           <Image
+            loading="lazy"
+            className="blur-image"
             width={1500}
             height={1000}
             src="/Canon EOS 6D 3648x2048_004616.jpg"
@@ -136,7 +139,14 @@ const Future = () => {
           earth.
         </p>
         <div className="p-10">
-          <Image width={1500} height={1000} src="/adevu.JPG" alt="" />
+          <Image
+            loading="lazy"
+            className="blur-image"
+            width={1500}
+            height={1000}
+            src="/adevu.JPG"
+            alt=""
+          />
         </div>
         <p className="p-10 font-font font-light md:text-xl text-sm">
           The sad bit of this fact is that, young children mostly in deprived
@@ -160,9 +170,10 @@ const Future = () => {
           Support <span className="text-[#472657]"> Us</span>
         </h1>
         <Image
+          loading="lazy"
           width={1500}
           height={1000}
-          className="pt-32"
+          className="pt-32 blur-image"
           src="/donate.png"
           alt=""
         />

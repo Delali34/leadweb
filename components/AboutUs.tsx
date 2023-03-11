@@ -15,7 +15,7 @@ function AboutUs() {
             loading="lazy"
             width={2000}
             height={1000}
-            className="lg:h-[650px] "
+            className="lg:h-[650px] blur-image"
             src="/gyla (11).webp"
             alt=""
           />
@@ -51,7 +51,7 @@ function AboutUs() {
                 loading="lazy"
                 width={50}
                 height={50}
-                className="mr-auto ml-auto"
+                className="mr-auto ml-auto blur-image"
                 src="/icons8-mission-80 (1).png"
                 alt=""
               />
@@ -67,7 +67,7 @@ function AboutUs() {
                 loading="lazy"
                 width={50}
                 height={50}
-                className="mr-auto ml-auto"
+                className="mr-auto ml-auto blur-image"
                 src="/icons8-surprise-64.png"
                 alt=""
               />
