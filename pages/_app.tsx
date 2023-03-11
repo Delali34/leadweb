@@ -1,7 +1,7 @@
 import { AppProps } from "next/app";
 import { AnimatePresence, motion } from "framer-motion";
 import "../styles/globals.css";
-
+import "@fontsource/poppins";
 function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <AnimatePresence exitBeforeEnter>
