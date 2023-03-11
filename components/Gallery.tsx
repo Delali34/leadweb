@@ -329,7 +329,10 @@ function Gallery() {
           </div>
         </div>
 
-        <div className="gallery">
+        <div
+          className="grid grid-cols-2 lg:grid-cols-3 gap-4"
+          style={{ gridAutoRows: "1fr", gridAutoFlow: "dense" }}
+        >
           {data.map((item) => {
             if (filter === "All" || item.category === filter) {
               return (
@@ -337,6 +340,12 @@ function Gallery() {
                   className="pics"
                   key={item.id}
                   onClick={() => getImg(item.imgSrc.src)}
+                  style={{
+                    gridColumnEnd: "span 1",
+                    gridRowEnd: `span ${Math.ceil(
+                      item.imgSrc.height / item.imgSrc.width
+                    )}`,
+                  }}
                 >
                   <Image
                     loading="lazy"
@@ -344,7 +353,8 @@ function Gallery() {
                     height={1500}
                     src={item.imgSrc}
                     alt="image"
-                    className="py-2"
+                    className="py-2 w-full h-full object-cover"
+                    style={{ width: "100%", height: "100%" }}
                   />
                 </div>
               );
