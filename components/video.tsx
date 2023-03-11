@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const VideoPlayer: React.FC = () => {
   const [playing, setPlaying] = useState(false);
-  const [muted, setMuted] = useState(false);
+
   const [fullScreen, setFullScreen] = useState(false);
 
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -18,13 +18,6 @@ const VideoPlayer: React.FC = () => {
     }
     setPlaying(!playing);
   };
-
-  // const handleMute = () => {
-  //   if (videoRef.current) {
-  //     videoRef.current.muted = !muted;
-  //   }
-  //   setMuted(!muted);
-  // };
 
   const handleFullScreen = () => {
     if (videoRef.current) {
