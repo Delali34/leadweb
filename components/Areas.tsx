@@ -2,10 +2,17 @@ import React from "react";
 import Image from "next/image";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { useRef } from "react";
 import Areamo from "./Areamo";
 
 function Areas() {
+  const imageRef = useRef<HTMLImageElement>(null);
+
+  const handleImageLoad = () => {
+    if (imageRef.current) {
+      imageRef.current.classList.remove("loading");
+    }
+  };
   return (
     <div>
       <div>
@@ -24,6 +31,8 @@ function Areas() {
         >
           <Image
             loading="eager"
+            onLoad={handleImageLoad}
+            ref={imageRef}
             className="p-5"
             width={500}
             height={500}
@@ -39,6 +48,8 @@ function Areas() {
         >
           <Image
             loading="eager"
+            onLoad={handleImageLoad}
+            ref={imageRef}
             className="p-5"
             width={500}
             height={500}
@@ -54,6 +65,8 @@ function Areas() {
         >
           <Image
             loading="eager"
+            onLoad={handleImageLoad}
+            ref={imageRef}
             className="p-5"
             width={500}
             height={500}
@@ -69,6 +82,8 @@ function Areas() {
         >
           <Image
             loading="eager"
+            onLoad={handleImageLoad}
+            ref={imageRef}
             className="p-5"
             width={500}
             height={500}
@@ -84,6 +99,8 @@ function Areas() {
         >
           <Image
             loading="eager"
+            onLoad={handleImageLoad}
+            ref={imageRef}
             className="p-5"
             width={500}
             height={500}
@@ -99,6 +116,8 @@ function Areas() {
         >
           <Image
             loading="eager"
+            onLoad={handleImageLoad}
+            ref={imageRef}
             className="p-5"
             width={500}
             height={500}

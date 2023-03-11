@@ -15,7 +15,7 @@ function Youtube() {
             width={500}
             height={500}
             className="w-full h-[100%] blur-image"
-            src="/hqdefault.jpg"
+            src="/G4C COVER 14.webp"
             alt=""
           />
           <div className="absolute inset-0 bg-purple-900 bg-opacity-90"></div>

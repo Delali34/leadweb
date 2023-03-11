@@ -36,12 +36,12 @@ export default function Header({}: Props) {
       <div className="fade-in" ref={pageRef}>
         <div className="relative">
           <Image
+            priority
             width={800}
             height={600}
             className="h-screen w-full object-cover blur-image"
             src={backgrounds[backgroundIndex]}
             alt=""
-            loading="lazy"
           />
           <div className="absolute inset-0 bg-black bg-opacity-60 h-screen"></div>
         </div>

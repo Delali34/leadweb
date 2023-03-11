@@ -3,6 +3,7 @@ import Image from "next/image";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { IoFilterOutline } from "react-icons/io5";
 import { IoMdDoneAll } from "react-icons/io";
+import { useRef } from "react";
 
 import { motion } from "framer-motion";
 // import img7 from "../public/gyla.jpg";
@@ -113,6 +114,13 @@ import img113 from "../public/gyla (75).webp";
 import img114 from "../public/gyla (76).webp";
 // import img115 from "../public/gyla (79).webp";
 function Gallery() {
+  const imageRef = useRef<HTMLImageElement>(null);
+
+  const handleImageLoad = () => {
+    if (imageRef.current) {
+      imageRef.current.classList.remove("loading");
+    }
+  };
   const [model, setModel] = useState(false);
   const [tempImgSrc, setTempImgSrc] = useState("");
   const [filter, setFilter] = useState("All");
@@ -244,9 +252,9 @@ function Gallery() {
     <>
       <div className={model ? "model open" : "model"}>
         <Image
-          loading="lazy"
-          width={10000}
-          height={10000}
+          priority
+          width={1000}
+          height={1000}
           src={tempImgSrc}
           alt="image"
           className="Image blur-image"
@@ -348,9 +356,11 @@ function Gallery() {
                   }}
                 >
                   <Image
-                    loading="lazy"
-                    width={2000}
-                    height={1500}
+                    loading="eager"
+                    onLoad={handleImageLoad}
+                    ref={imageRef}
+                    width={1000}
+                    height={700}
                     src={item.imgSrc}
                     alt="image"
                     className="py-2 w-full h-full object-cover blur-image"

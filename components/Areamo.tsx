@@ -3,9 +3,16 @@ import Image from "next/image";
 
 import { AiFillPlayCircle } from "react-icons/ai";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { useRef } from "react";
 
 function Areamo() {
+  const imageRef = useRef<HTMLImageElement>(null);
+
+  const handleImageLoad = () => {
+    if (imageRef.current) {
+      imageRef.current.classList.remove("loading");
+    }
+  };
   return (
     <div className="mt-10 grid grid-cols-1 max-w-7xl mx-auto items-center sm:hidden">
       <Link
@@ -13,7 +20,9 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="lazy"
+          loading="eager"
+          onLoad={handleImageLoad}
+          ref={imageRef}
           className="p-5"
           width={500}
           height={500}
@@ -28,7 +37,9 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="lazy"
+          loading="eager"
+          onLoad={handleImageLoad}
+          ref={imageRef}
           className="p-5"
           width={500}
           height={500}
@@ -43,7 +54,9 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="lazy"
+          loading="eager"
+          onLoad={handleImageLoad}
+          ref={imageRef}
           className="p-5"
           width={500}
           height={500}
@@ -58,7 +71,9 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="lazy"
+          loading="eager"
+          onLoad={handleImageLoad}
+          ref={imageRef}
           className="p-5"
           width={500}
           height={500}
@@ -73,7 +88,9 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="lazy"
+          loading="eager"
+          onLoad={handleImageLoad}
+          ref={imageRef}
           className="p-5"
           width={500}
           height={500}
@@ -88,11 +105,13 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="lazy"
+          loading="eager"
+          onLoad={handleImageLoad}
+          ref={imageRef}
           className="p-5"
           width={500}
           height={500}
-          src="/G4C COVER 2.png"
+          src="/G4C COVER 2.webp"
           alt=""
         />
 
