@@ -1,21 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* .item {
-  -webkit-mask-repeat: no-repeat;
-  height: 416px;
-  width: 564px;
-}
-.one {
-  -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjY0IiBoZWlnaHQ9IjIxNiIgdmlld0JveD0iMCAwIDI2NCAyMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyNjQiIGhlaWdodD0iMjE2IiByeD0iMjAiIGZpbGw9IiNEOUQ5RDkiLz4KPC9zdmc+Cg==);
-}
-.transform-translate-x-150 {
-  transform: translateX(150px);
-}
 
-.transform-translate-y-100 {
-  transform: translateY(100px);
-} */
 .blur-image {
   filter: none;
 }
