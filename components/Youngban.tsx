@@ -245,19 +245,10 @@ const Future = () => {
           alt=""
         />
         <p className="p-10 font-font font-light md:text-xl text-sm">
-          <motion.span
-            initial={{
-              x: 60,
-              opacity: 0,
-            }}
-            transition={{ duration: 1 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="text-[#66319A] xl:text-[40px] font-font font-black"
-          >
+          <span className="text-[#66319A] xl:text-[40px] font-font font-black">
             {" "}
             Leadership <span className="text-[#27B24B]">Farm</span>
-          </motion.span>{" "}
+          </span>{" "}
           is a weekly, meticulous programme that enables a student to discover
           his or her innate potential for effective leadership within their
           circle of influence. During the sessions, Participants are guided
