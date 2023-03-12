@@ -37,8 +37,8 @@ export default function Header({}: Props) {
         <div className="relative">
           <Image
             priority
-            width={800}
-            height={600}
+            width={1920}
+            height={1077}
             className="h-screen w-full object-cover blur-image"
             src={backgrounds[backgroundIndex]}
             alt=""

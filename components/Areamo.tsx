@@ -3,16 +3,8 @@ import Image from "next/image";
 
 import { AiFillPlayCircle } from "react-icons/ai";
 import Link from "next/link";
-import { useRef } from "react";
 
 function Areamo() {
-  const imageRef = useRef<HTMLImageElement>(null);
-
-  const handleImageLoad = () => {
-    if (imageRef.current) {
-      imageRef.current.classList.remove("loading");
-    }
-  };
   return (
     <div className="mt-10 grid grid-cols-1 max-w-7xl mx-auto items-center sm:hidden">
       <Link
@@ -20,9 +12,7 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="eager"
-          onLoad={handleImageLoad}
-          ref={imageRef}
+          loading="lazy"
           className="p-5"
           width={500}
           height={500}
@@ -37,9 +27,7 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="eager"
-          onLoad={handleImageLoad}
-          ref={imageRef}
+          loading="lazy"
           className="p-5"
           width={500}
           height={500}
@@ -54,9 +42,7 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="eager"
-          onLoad={handleImageLoad}
-          ref={imageRef}
+          loading="lazy"
           className="p-5"
           width={500}
           height={500}
@@ -71,9 +57,7 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="eager"
-          onLoad={handleImageLoad}
-          ref={imageRef}
+          loading="lazy"
           className="p-5"
           width={500}
           height={500}
@@ -88,9 +72,7 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="eager"
-          onLoad={handleImageLoad}
-          ref={imageRef}
+          loading="lazy"
           className="p-5"
           width={500}
           height={500}
@@ -105,9 +87,7 @@ function Areamo() {
         target="_blank"
       >
         <Image
-          loading="eager"
-          onLoad={handleImageLoad}
-          ref={imageRef}
+          loading="lazy"
           className="p-5"
           width={500}
           height={500}
