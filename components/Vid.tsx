@@ -6,6 +6,7 @@ const VideoPlayer = () => {
   const [duration, setDuration] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const handlePlayPause = () => {
@@ -56,6 +57,13 @@ const VideoPlayer = () => {
       setIsFinished(false);
     }
   };
+  const handleLoadStart = () => {
+    setIsLoading(true);
+  };
+
+  const handleCanPlay = () => {
+    setIsLoading(false);
+  };
 
   return (
     <div
@@ -71,8 +79,15 @@ const VideoPlayer = () => {
         ref={videoRef}
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleDurationChange}
+        onLoadStart={handleLoadStart}
         onEnded={handleVideoEnd}
+        onCanPlay={handleCanPlay}
       />
+      {isLoading && (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="loader" />
+        </div>
+      )}
       {!isFinished ? (
         <div
           className={`absolute inset-0 flex items-center justify-center ${
@@ -97,8 +112,8 @@ const VideoPlayer = () => {
         </div>
       ) : (
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <p className="text-white text-lg mb-4 bg-black p-3 rounded-md">
-            Video Complete!
+          <p className="text-white text-lg mb-4 bg-black p-3 rounded-md hover:bg-red-500 cursor-pointer">
+            Go to YouTube
           </p>
           <button
             className="text-white bg-purple-500 hover:bg-purple-600 transition-colors px-4 py-2 rounded"
