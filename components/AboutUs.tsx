@@ -13,8 +13,8 @@ function AboutUs() {
         <div className="md:mt-40 mt-8 lg:mt-20">
           <Image
             priority
-            width={2000}
-            height={1000}
+            width={1280}
+            height={853}
             className="lg:h-[650px] blur-image"
             src="/gyla (11).webp"
             alt=""

@@ -35,7 +35,7 @@ function Team() {
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"
-              src="/pexels-linkedin-sales-navigator-2182970.jpg"
+              src="/team.webp"
               alt=""
             />
             <h1 className="font-bold font-font text-2xl text-white pt-10">
@@ -71,7 +71,7 @@ function Team() {
               width={500}
               height={500}
               className="h-[400px] w-[400px] anim blur-image"
-              src="/pexels-emmy-e-2381069.jpg"
+              src="/lady (2).webp"
               alt=""
             />
             <h1 className="font-bold font-font text-2xl text-white pt-10">
@@ -106,7 +106,7 @@ function Team() {
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"
-              src="/pexels-karolina-grabowska-4467687.jpg"
+              src="/team (1).webp"
               alt=""
             />
             <h1 className="font-bold font-font text-2xl text-white pt-10">
@@ -143,7 +143,7 @@ function Team() {
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"
-              src="/pexels-bestbe-models-2282520.jpg"
+              src="/team (5).webp"
               alt=""
             />
             <h1 className="font-bold font-font text-2xl text-white pt-10">
@@ -178,7 +178,7 @@ function Team() {
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"
-              src="/pexels-andrea-piacquadio-3785104.jpg"
+              src="/team (3).webp"
               alt=""
             />
             <h1 className="font-bold font-font text-2xl text-white pt-10">
@@ -215,7 +215,7 @@ function Team() {
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"
-              src="/pexels-christina-morillo-1181428.jpg"
+              src="/lady (3).webp"
               alt=""
             />
             <h1 className="font-bold font-font text-2xl text-white pt-10">
@@ -250,7 +250,7 @@ function Team() {
               width={500}
               height={500}
               className="h-[400px] w-[400px] blur-image"
-              src="/pexels-christina-morillo-1181428.jpg"
+              src="/lady.webp"
               alt=""
             />
             <h1 className="font-bold font-font text-2xl text-white pt-10">

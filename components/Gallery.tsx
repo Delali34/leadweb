@@ -249,7 +249,7 @@ function Gallery() {
           height={1000}
           src={tempImgSrc}
           alt="image"
-          className="Image blur-image"
+          className="Image "
         />
         <AiFillCloseCircle onClick={() => setModel(false)} />
       </div>

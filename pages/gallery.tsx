@@ -8,9 +8,9 @@ import Menu from "@/components/Menu";
 import Head from "next/head";
 import Footer from "@/components/Footer";
 
-import first from "../public/image6.jpg";
-import second from "../public/image7.jpg";
-import third from "../public/image8.jpg";
+import first from "../public/image 7 (1).webp";
+import second from "../public/image 7 (2).webp";
+import third from "../public/image 7 (3).webp";
 
 type Props = {};
 
