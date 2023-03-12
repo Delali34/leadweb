@@ -1,15 +1,27 @@
 import React, { useRef, useEffect, useState } from "react";
-import Image from "next/image";
+import { fill } from "@cloudinary/url-gen/actions/resize";
+import { CloudinaryImage } from "@cloudinary/url-gen";
+import { AdvancedImage } from "@cloudinary/react";
 
-import first from "../public/camp (4).webp";
-import second from "../public/camp (10).webp";
-import third from "../public/camp (54).webp";
-import four from "../public/gyla (53).webp";
-import five from "../public/work.webp";
+const myImages = [
+  new CloudinaryImage("camp_4_hbmxvz", { cloudName: "dpbuwo8ha" }).resize(
+    fill().width(1920).height(1077)
+  ),
+  new CloudinaryImage("camp_10_hbp9b6", { cloudName: "dpbuwo8ha" }).resize(
+    fill().width(1920).height(1077)
+  ),
+  new CloudinaryImage("camp_54_c90khq", { cloudName: "dpbuwo8ha" }).resize(
+    fill().width(1920).height(1077)
+  ),
+  new CloudinaryImage("gyla_53_r7lgfe", { cloudName: "dpbuwo8ha" }).resize(
+    fill().width(1920).height(1077)
+  ),
+  new CloudinaryImage("work_eli4r6", { cloudName: "dpbuwo8ha" }).resize(
+    fill().width(1920).height(1077)
+  ),
+];
 
 type Props = {};
-
-const backgrounds = [first, second, third, four, five];
 
 export default function Header({}: Props) {
   const pageRef = useRef<HTMLDivElement>(null);
@@ -26,7 +38,7 @@ export default function Header({}: Props) {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setBackgroundIndex((backgroundIndex + 1) % backgrounds.length);
+      setBackgroundIndex((backgroundIndex + 1) % myImages.length);
     }, 5000);
     return () => clearInterval(interval);
   }, [backgroundIndex]);
@@ -35,12 +47,9 @@ export default function Header({}: Props) {
     <header>
       <div className="fade-in" ref={pageRef}>
         <div className="relative">
-          <Image
-            priority
-            width={1920}
-            height={1077}
+          <AdvancedImage
+            cldImg={myImages[backgroundIndex]}
             className="h-screen w-full object-cover blur-image"
-            src={backgrounds[backgroundIndex]}
             alt=""
           />
           <div className="absolute inset-0 bg-black bg-opacity-60 h-screen"></div>

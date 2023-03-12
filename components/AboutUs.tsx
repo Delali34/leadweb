@@ -16,7 +16,7 @@ function AboutUs() {
             width={1280}
             height={853}
             className="lg:h-[650px] blur-image"
-            src="/gyla (11).webp"
+            src="https://res.cloudinary.com/dpbuwo8ha/image/upload/v1678626872/gyla_11_oxx2yv.webp"
             alt=""
           />
         </div>

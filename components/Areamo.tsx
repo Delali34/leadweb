@@ -16,7 +16,7 @@ function Areamo() {
           className="p-5"
           width={500}
           height={500}
-          src="/G4C COVER 1.webp"
+          src="https://res.cloudinary.com/dpbuwo8ha/image/upload/v1678626869/G4C_COVER_1_axvy9c.webp"
           alt=""
         />
 
@@ -31,7 +31,7 @@ function Areamo() {
           className="p-5"
           width={500}
           height={500}
-          src="/G4C COVER 14.webp"
+          src="https://res.cloudinary.com/dpbuwo8ha/image/upload/v1678626869/G4C_COVER_14_plq5o2.webp"
           alt=""
         />
 
@@ -46,7 +46,7 @@ function Areamo() {
           className="p-5"
           width={500}
           height={500}
-          src="/G4C COVER 15.webp"
+          src="https://res.cloudinary.com/dpbuwo8ha/image/upload/v1678626870/G4C_COVER_15_ctnwth.webp"
           alt=""
         />
 
@@ -61,7 +61,7 @@ function Areamo() {
           className="p-5"
           width={500}
           height={500}
-          src="/G4C COVER 16.webp"
+          src="https://res.cloudinary.com/dpbuwo8ha/image/upload/v1678626870/G4C_COVER_16_rqz6j1.webp"
           alt=""
         />
 
@@ -76,7 +76,7 @@ function Areamo() {
           className="p-5"
           width={500}
           height={500}
-          src="/G4C COVER 17.webp"
+          src="https://res.cloudinary.com/dpbuwo8ha/image/upload/v1678626871/G4C_COVER_17_mkhglj.webp"
           alt=""
         />
 
@@ -91,7 +91,7 @@ function Areamo() {
           className="p-5"
           width={500}
           height={500}
-          src="/G4C COVER 2.webp"
+          src="https://res.cloudinary.com/dpbuwo8ha/image/upload/v1678626869/G4C_COVER_2_eqjmcm.webp"
           alt=""
         />
 

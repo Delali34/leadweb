@@ -41,7 +41,7 @@ const Future = () => {
           width={1000}
           height={1000}
           className="h-[600px] w-[100%] object-cover blur-image"
-          src="/ready.webp"
+          src="https://res.cloudinary.com/dpbuwo8ha/image/upload/v1678626887/ready_yduhqu.webp"
           alt=""
         />
 

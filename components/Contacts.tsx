@@ -24,7 +24,7 @@ function Contacts() {
           priority
           width={800}
           height={800}
-          src="/contact.webp"
+          src="https://res.cloudinary.com/dpbuwo8ha/image/upload/v1678626867/contact_upyzqg.webp"
           alt=""
         />
       </div>
