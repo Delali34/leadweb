@@ -85,26 +85,26 @@ const VideoPlayer = () => {
         onCanPlay={handleCanPlay}
       />
       {isLoading && (
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="absolute  inset-0 flex items-center justify-center">
           <div className="loader" />
         </div>
       )}
       {!isFinished ? (
         <div
-          className={`absolute inset-0 flex items-center justify-center ${
-            isHovering ? "opacity-100" : "opacity-0"
+          className={`absolute bottom-0 left-0   ${
+            isHovering ? "opacity-100" : "opacity-100"
           } transition-opacity duration-200`}
         >
           {isPlaying ? (
             <button
-              className="text-white hover:text-gray-300 transition-colors bg-purple-500 hover:bg-purple-600 p-3 font-bold rounded-md"
+              className="text-white hover:text-gray-300 transition-colors bg-purple-500 hover:bg-purple-600 px-2 py-[6px] font-bold "
               onClick={handlePlayPause}
             >
               Pause
             </button>
           ) : (
             <button
-              className="text-white hover:text-gray-300 transition-colors bg-purple-500 hover:bg-purple-600 p-3 font-bold rounded-md"
+              className="text-white hover:text-gray-300 transition-colors bg-purple-500 hover:bg-purple-600 px-3 py-[6px] font-bold "
               onClick={handlePlayPause}
             >
               Play
@@ -130,7 +130,7 @@ const VideoPlayer = () => {
           </button>
         </div>
       )}
-      <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center py-4 bg-black">
+      <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center py-4 bg-black ml-14">
         <div
           className="h-1 bg-gray-300 flex-1 mx-4 relative"
           onClick={handleProgressClick}
