@@ -310,7 +310,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-      <div className="absolute top-0 md:hidden px-8 py-2 flex justify-between w-full items-center">
+      <div className="absolute top-0 md:hidden px-8 py-2 flex justify-between w-full items-center z-10">
         <Link href="/">
           <Image
             width={100}
