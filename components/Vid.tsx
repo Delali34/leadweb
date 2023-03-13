@@ -1,5 +1,7 @@
 import { useRef, useState } from "react";
 import Link from "next/link";
+import { AiOutlinePause } from "react-icons/ai";
+import { BsFillPlayFill } from "react-icons/bs";
 
 const VideoPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -97,17 +99,17 @@ const VideoPlayer = () => {
         >
           {isPlaying ? (
             <button
-              className="text-white hover:text-gray-300 transition-colors bg-purple-500 hover:bg-purple-600 px-2 py-[6px] font-bold "
+              className="text-white hover:text-gray-300 transition-colors bg-purple-500 hover:bg-purple-600 h-8  w-9 font-bold "
               onClick={handlePlayPause}
             >
-              Pause
+              <AiOutlinePause className="text-2xl ml-[5px] mb-[5px]" />
             </button>
           ) : (
             <button
-              className="text-white hover:text-gray-300 transition-colors bg-purple-500 hover:bg-purple-600 px-3 py-[6px] font-bold "
+              className="text-white hover:text-gray-300 transition-colors bg-purple-500 hover:bg-purple-600 h-8  w-9 font-bold "
               onClick={handlePlayPause}
             >
-              Play
+              <BsFillPlayFill className="text-2xl ml-[5px] mb-[5px]" />
             </button>
           )}
         </div>
@@ -130,7 +132,7 @@ const VideoPlayer = () => {
           </button>
         </div>
       )}
-      <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center py-4 bg-black ml-14">
+      <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center py-4 bg-black ml-9">
         <div
           className="h-1 bg-gray-300 flex-1 mx-4 relative"
           onClick={handleProgressClick}
