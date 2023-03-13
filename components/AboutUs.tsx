@@ -1,24 +1,70 @@
 import React from "react";
 import Image from "next/image";
+import { buildUrl } from "cloudinary-build-url";
 import Team from "@/components/Team";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
+import { quality } from "@cloudinary/url-gen/actions/delivery";
 function AboutUs() {
+  const url = buildUrl("gyla_11_oxx2yv", {
+    cloud: {
+      cloudName: "dpbuwo8ha",
+    },
+  });
+  const urlBlurred = buildUrl("gyla_11_oxx2yv", {
+    cloud: {
+      cloudName: "dpbuwo8ha",
+    },
+    transformations: {
+      effect: "blur:1000",
+      quality: 1,
+    },
+  });
   return (
     <div>
       <div className=" mt-[80px] lg:mt-[150px] max-w-7xl mx-auto md:p-20">
         <h1 className="md:text-[80px] font-font font-semibold text-[40px] md:pl-0 pl-10">
           About Us
         </h1>
-        <div className="md:mt-40 mt-8 lg:mt-20">
+        {/* <div className="md:mt-40 mt-8 lg:mt-20">
           <Image
             priority
             width={1280}
             height={853}
             className="lg:h-[650px] blur-image"
-            src="https://res.cloudinary.com/dpbuwo8ha/image/upload/v1678626872/gyla_11_oxx2yv.webp"
+            src={url}
             alt=""
           />
+        </div> */}
+        <div className="md:mt-40 mt-8 lg:mt-20">
+          <div
+            style={{
+              position: "relative",
+              height: 0,
+              paddingTop: `${(750 / 1280) * 100}%`,
+              backgroundImage: `url(${urlBlurred})`,
+              backgroundPosition: "center center",
+              backgroundSize: `100%`,
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+              }}
+            >
+              <Image
+                priority
+                width={1280}
+                height={853}
+                className="lg:h-[650px] blur-image"
+                src={url}
+                alt=""
+                unoptimized={true}
+              />
+            </div>
+          </div>
         </div>
       </div>
       <motion.div
