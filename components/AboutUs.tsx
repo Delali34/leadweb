@@ -55,10 +55,9 @@ function AboutUs() {
               }}
             >
               <Image
-                priority
                 width={1280}
                 height={853}
-                className="lg:h-[650px] blur-image"
+                className="lg:h-[650px] "
                 src={url}
                 alt=""
                 unoptimized={true}
