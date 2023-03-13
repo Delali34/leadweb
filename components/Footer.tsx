@@ -9,8 +9,8 @@ import { AiOutlineTwitter } from "react-icons/ai";
 function Footer() {
   return (
     <div className="bg-purple-500 ">
-      <div className="max-w-7xl md:flex  items-center justify-center mx-auto md:px-10 pb-[120px]  md:pb-[100px] md:pt-[50px] gap-10">
-        <div className="flex justify-center md:block ">
+      <div className="max-w-7xl lg:flex  items-center justify-center mx-auto md:px-10 pb-[120px]  md:pb-[100px] md:pt-[50px] gap-10 xl:px-56 lg:px-36 2xl:px-10">
+        <div className="flex justify-center lg:block ">
           <Image
             width={100}
             height={100}
@@ -19,7 +19,7 @@ function Footer() {
             alt=""
           />
         </div>
-        <div className="md:flex items-center justify-between w-[100%]">
+        <div className="lg:flex items-center justify-between w-[100%]">
           <div>
             <div className="flex justify-center items-center md:p-1 pl-5 md:pt-5 -ml-[35px]">
               <AiFillPhone className="text-3xl text-white" />
@@ -34,12 +34,12 @@ function Footer() {
               </h1>
             </div>
           </div>
-          <div className="flex  md:block justify-center">
+          <div className="flex  lg:block justify-center">
             <div>
               <h1 className=" font-font font-normal   pl-5   md:text-[15px] text-[10px] text-white pt-5">
                 Connect with us
               </h1>
-              <div className="flex md:p-1 md:pl-5 md:justify-center pt-2">
+              <div className="flex md:p-1 lg:pl-5 lg:justify-center pt-2">
                 <Link
                   href="https://facebook.com/leadafriqueinternational"
                   target="_blank"
@@ -68,7 +68,7 @@ function Footer() {
             </div>
           </div>
           <div className="pb-7 pl-1 pt-5">
-            <h1 className=" font-font  md:text-[15px] text-[10px] text-white text-center">
+            <h1 className=" font-font  lg:text-[15px] text-[10px] text-white text-center">
               Want a One on One
             </h1>
             <Link href="/contact">

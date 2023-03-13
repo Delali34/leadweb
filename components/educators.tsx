@@ -57,7 +57,7 @@ const Future = () => {
           </motion.div>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto xl:px-28 2xl:px-0">
         <h1 className="pt-24 font-font font-bold md:text-6xl text-4xl text-[#1D79BF] underline px-10">
           Teachers
           <span className="text-[#5DA237] underline"> Transformation</span>{" "}

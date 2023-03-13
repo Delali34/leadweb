@@ -231,7 +231,7 @@ const Future = () => {
           </motion.div>
         </motion.div>
       </div>
-      <motion.div className="max-w-7xl mx-auto">
+      <motion.div className="max-w-7xl mx-auto xl:px-28 2xl:px-0">
         <motion.img
           initial={{
             y: 50,
@@ -360,7 +360,7 @@ const Future = () => {
           <br />
         </p>
       </motion.div>
-      <motion.div className="max-w-7xl mx-auto">
+      <motion.div className="max-w-7xl mx-auto xl:px-28 2xl:px-0">
         <motion.img
           initial={{
             y: 50,

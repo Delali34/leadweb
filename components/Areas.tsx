@@ -17,7 +17,7 @@ function Areas() {
           LIFESTYLE AND YOUR BUDGET
         </p>
       </div>
-      <div className="mt-10  md:grid-cols-2 lg:grid-cols-3 grid-cols-1 max-w-7xl mx-auto items-center sm:grid-cols-2 hidden sm:grid">
+      <div className="mt-10  md:grid-cols-2 lg:grid-cols-3 grid-cols-1 max-w-7xl mx-auto items-center sm:grid-cols-2 hidden sm:grid xl:px-36 2xl:px-0 lg:px-24 md:px-20 ">
         <Link
           href="https://www.myleadershipfarm.com/course_content/38/"
           target="_blank"
@@ -31,7 +31,7 @@ function Areas() {
             alt=""
           />
 
-          <p className="flex items-center gap-1 px-5 underline">Wact here</p>
+          <p className="flex items-center gap-1 px-5 underline">Watch here</p>
         </Link>
         <Link
           href="https://www.myleadershipfarm.com/course_content/99/"

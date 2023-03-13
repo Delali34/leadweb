@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import Link from "next/link";
 
 const VideoPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -112,9 +113,15 @@ const VideoPlayer = () => {
         </div>
       ) : (
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <p className="text-white text-lg mb-4 bg-black p-3 rounded-md hover:bg-red-500 cursor-pointer">
-            Go to YouTube
-          </p>
+          <Link
+            href="https://www.youtube.com/@leadafriquetv7715"
+            target="_blank"
+          >
+            <p className="text-white text-lg mb-4 bg-black p-3 rounded-md hover:bg-red-500 cursor-pointer">
+              Go to YouTube
+            </p>
+          </Link>
+
           <button
             className="text-white bg-purple-500 hover:bg-purple-600 transition-colors px-4 py-2 rounded"
             onClick={handlePlayAgain}

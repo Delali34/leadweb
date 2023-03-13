@@ -28,15 +28,15 @@ function Contacts() {
           alt=""
         />
       </div>
-      <div className="max-w-7xl mx-auto">
-        <h1 className="text-white xl:text-[60px] text-[40px] m-5 p-5 font-font font-bold shadow-sm shadow-black absolute xl:top-[40%] top-[30%]">
+      <div className="max-w-7xl mx-auto xl:px-20 2xl:px-0">
+        <h1 className="text-white xl:text-[60px] text-[40px] m-5 p-5 font-font font-bold shadow-sm shadow-black absolute xl:top-[40%] top-[30%] ">
           We would love to work with you.
         </h1>
       </div>
 
-      <div className="  font-font xl:flex justify-center items-center max-w-7xl mx-auto xl:-mt-52 lg:gap-5 ">
-        <div className="bg-[#CFF5DD] w-[100%] z-[9999]">
-          <h1 className=" px-12 pt-6 pb-8 mb-2">
+      <div className="  font-font xl:flex justify-center items-center max-w-7xl mx-auto lg:gap-5 xl:px-20 2xl:px-0">
+        <div className="bg-purple-500 w-[100%] z-[9999]">
+          <h1 className=" px-12 pt-6 pb-8 mb-2 text-white md:text-xl">
             Book a one on one with us below
           </h1>
           <form
@@ -49,13 +49,13 @@ function Contacts() {
               <div>
                 <div className="mb-4">
                   <label
-                    className="block text-gray-700 font-normal mb-2"
+                    className="block text-white font-normal mb-2"
                     htmlFor="name"
                   >
                     Name
                   </label>
                   <input
-                    className="lg:w-[400px] appearance-none border  w-full xl:w-full py-2 px-3 text-gray-700 outline-none bg-[#CFF5DD] border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
+                    className="lg:w-[400px] appearance-none border  w-full xl:w-full py-2 px-3 text-white outline-none bg-purple-500 border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
                     id="name"
                     type="text"
                     placeholder="Your name"
@@ -67,13 +67,13 @@ function Contacts() {
                 </div>
                 <div className="mb-4">
                   <label
-                    className="block text-gray-700 font-normal mb-2"
+                    className="block text-white font-normal mb-2"
                     htmlFor="email"
                   >
                     Email
                   </label>
                   <input
-                    className=" appearance-none border   w-full py-2 px-3 text-gray-700 outline-none bg-[#CFF5DD] border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
+                    className=" appearance-none border   w-full py-2 px-3 text-white outline-none bg-purple-500 border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
                     id="email"
                     type="email"
                     placeholder="Your email"
@@ -85,13 +85,13 @@ function Contacts() {
                 </div>
                 <div className="mb-4">
                   <label
-                    className="block text-gray-700 font-normal mb-2"
+                    className="block text-white font-normal mb-2"
                     htmlFor="phone"
                   >
                     Phone number
                   </label>
                   <input
-                    className="appearance-none border  w-full py-2 px-3 text-gray-700 outline-none bg-[#CFF5DD] border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
+                    className="appearance-none border  w-full py-2 px-3 text-white outline-none bg-purple-500 border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
                     id="phone"
                     type="tel"
                     placeholder="Your Phone number"
@@ -105,13 +105,13 @@ function Contacts() {
               <div>
                 <div className="mb-4">
                   <label
-                    className="block text-gray-700 font-normal mb-2"
+                    className="block text-white font-normal mb-2"
                     htmlFor="name"
                   >
                     Subject
                   </label>
                   <input
-                    className="lg:w-[400px] appearance-none border  w-full xl:w-full py-2 px-3 text-gray-700 outline-none bg-[#CFF5DD] border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
+                    className="lg:w-[400px] appearance-none border  w-full xl:w-full py-2 px-3 text-white outline-none bg-purple-500 border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
                     id="topic"
                     type="text"
                     placeholder="Enter Topic"
@@ -123,13 +123,13 @@ function Contacts() {
                 </div>
                 <div className="mb-4">
                   <label
-                    className="block text-gray-700 font-normal mb-2"
+                    className="block text-white font-normal mb-2"
                     htmlFor="date"
                   >
                     Date
                   </label>
                   <input
-                    className="appearance-none border  w-full py-2 px-3 text-gray-700 outline-none bg-[#CFF5DD] border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
+                    className="appearance-none border  w-full py-2 px-3 text-white outline-none bg-purple-500 border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
                     id="date"
                     min={new Date().toISOString().split("T")[0]}
                     type="date"
@@ -141,13 +141,13 @@ function Contacts() {
                 </div>
                 <div className="mb-9">
                   <label
-                    className="block text-gray-700 font-normal mb-2"
+                    className="block  font-normal mb-2 text-white"
                     htmlFor="time"
                   >
                     Time
                   </label>
                   <input
-                    className="appearance-none border w-full py-2 px-3 text-gray-700 outline-none bg-[#CFF5DD] border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
+                    className="appearance-none border w-full py-2 px-3 text-white outline-none bg-purple-500 border-b-black  focus:border-b-purple-500 transition translate duration-200 ease-in-out"
                     id="time"
                     min="08:00"
                     max="17:00"
@@ -162,7 +162,7 @@ function Contacts() {
             </div>
             <div className="flex items-center justify-between">
               <button
-                className="bg-purple-500 hover:bg-purple-300 text-white font-normal py-2 outline-none px-4 rounded focus:outline-none focus:shadow-outline"
+                className="bg-gray-800 hover:text-black hover:bg-purple-300 text-white font-normal py-2 outline-none px-4 rounded focus:outline-none focus:shadow-outline"
                 type="submit"
               >
                 Book Meeting
@@ -170,7 +170,7 @@ function Contacts() {
             </div>
           </form>
         </div>
-        <div className="bg-[#2E2E2E] w-[100%] h-[470px] flex flex-col items-center justify-center z-[9999]">
+        <div className="bg-[#2E2E2E] w-[100%] h-[474px] flex flex-col items-center justify-center z-[9999]">
           <p className="text-[15px] text-purple-500 text-center">
             LeadAfrique International
           </p>
@@ -214,7 +214,7 @@ function Contacts() {
           </div>
         </div>
       </div>
-      <div className="container max-w-7xl mx-auto mb-36 md:mb-5">
+      <div className="container max-w-7xl mx-auto mb-36 md:mb-5 xl:px-20 2xl:px-0">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4580.031134258044!2d-0.15797834929503896!3d5.705980195844037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d36f6d8f56f%3A0xaa69443fc55723c!2sLeadAfrique%20International!5e1!3m2!1sen!2sus!4v1678178980421!5m2!1sen!2sus"
           width="100%"

@@ -94,7 +94,7 @@ const Future = () => {
           </motion.svg>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto xl:px-20 2xl:px-0">
         <h1 className="pt-24 font-font font-bold text-6xl text-[#C40C7B]  px-10">
           Be <span className="text-[#472657]">Future </span> Ready
         </h1>
@@ -165,7 +165,7 @@ const Future = () => {
       <div>
         <Futuretest />
       </div>
-      <div className="mt-40 max-w-7xl mx-auto p-10">
+      <div className="mt-40 max-w-7xl mx-auto p-10 xl:px-40 2xl:px-10">
         <h1 className="font-font font-bold text-6xl text-[#C40C7B] underline ">
           Support <span className="text-[#472657]"> Us</span>
         </h1>

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function AboutUs() {
   return (
     <div>
-      <div className=" mt-[80px] lg:mt-[150px] max-w-7xl mx-auto md:p-20 ">
+      <div className=" mt-[80px] lg:mt-[150px] max-w-7xl mx-auto md:p-20">
         <h1 className="md:text-[80px] font-font font-semibold text-[40px] md:pl-0 pl-10">
           About Us
         </h1>
@@ -31,7 +31,7 @@ function AboutUs() {
         viewport={{ once: true }}
         className="md:mt-40 mt-8 lg:mt-20 bg-purple-500 relative"
       >
-        <div className="max-w-7xl mx-auto lg:flex p-10 justify-between gap-8 items-center">
+        <div className="max-w-7xl mx-auto lg:flex p-10 justify-between gap-8 items-center xl:px-28 2xl:px-10">
           <div>
             <h1 className="text-white text-4xl font-font font-bold text-center lg:text-start">
               Why we exist

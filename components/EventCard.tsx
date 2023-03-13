@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function EventCard() {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl-[900px] snap-center bg-purple-500 p-10 opacity-100 lg:opacity-60 lg:hover:opacity-100 cursor-pointer overflow-hidden transition-opacity duration-200 md:mt-20">
+    <article className="flex flex-col rounded-lg items-center flex-shrink-0 w-[300px] md:w-[600px]   snap-center bg-purple-500 p-8 opacity-100 lg:opacity-60 lg:hover:opacity-100 cursor-pointer overflow-hidden transition-opacity duration-200 md:mt-20">
       <motion.img
         initial={{
           y: -100,

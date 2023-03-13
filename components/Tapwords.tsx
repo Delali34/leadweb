@@ -20,7 +20,7 @@ export default function Hero({}: Props) {
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-purple-500 font-font xl:text-[200px] md:text-6xl font-bold text-center lg:text-[150px] md:text-[150px] text-[100px]"
+        className="text-purple-500 font-font xl:text-[170px] 2xl:text-[200px] md:text-6xl font-bold text-center lg:text-[150px] md:text-[150px]  text-[100px]"
       >
         Our
         {/* <Cursor cursorColor="#7B2A93" /> */}

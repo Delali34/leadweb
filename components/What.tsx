@@ -8,7 +8,7 @@ function What() {
         <h1 className="font-font font-medium text-3xl">What we do</h1>
       </div>
 
-      <div className="grid space-x-3 text-center mt-24 lg:mt-36 md:px-28 px-10 lg:grid-cols-2 xl:grid-cols-4">
+      <div className="grid space-x-3 text-center mt-24 lg:mt-36 md:px-28 px-10 lg:grid-cols-2 2xl:grid-cols-4 xl:px-20 2xl:px-10">
         <div className="px-10 pt-5">
           <Image
             width={50}

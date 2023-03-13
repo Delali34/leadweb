@@ -252,7 +252,7 @@ const Future = () => {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="max-w-7xl mx-auto"
+        className="max-w-7xl mx-auto xl:px-28 2xl:px-0"
       >
         <h1 className="pt-24 font-font font-bold text-[#66319A] px-10 md:text-6xl text-xl">
           Corporate Training and Retreats
@@ -303,7 +303,7 @@ const Future = () => {
             <br />
           </p>
         </div>
-        <motion.div className="max-w-7xl mx-auto">
+        <motion.div className="max-w-7xl mx-auto ">
           <motion.img
             initial={{
               y: 50,

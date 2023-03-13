@@ -14,14 +14,16 @@ export default function Hero({}: Props) {
     delaySpeed: 2300,
   });
   return (
-    <div className="absolute top-[0] left-[0] w-full lg:px-16 lg:py-1 md:mt-24 mt-24 px-4">
-      <h1 className="text-purple-500 text-6xl font-font xl:text-8xl md:text-6xl font-bold md:text-center md:pt-72 pt-36 ">
-        We <span className="text-white">{text}</span>
-        <Cursor cursorColor="#7B2A93" />
-      </h1>
-      <h1 className="text-white text-xl font-font xl:text-4xl md:text-2xl md:text-center pt-10">
-        Transformed Africa through creative and responsive leaders.
-      </h1>
+    <div className="flex items-center h-screen absolute top-[0] left-[0] w-[100%] justify-center md:px-10 px-5">
+      <div className="">
+        <h1 className="text-purple-500 text-4xl font-font xl:text-8xl md:text-5xl font-extrabold  ">
+          We <span className="text-white">{text}</span>
+          <Cursor cursorColor="#7B2A93" />
+        </h1>
+        <h1 className="text-white text-xl font-font xl:text-4xl md:text-2xl  pt-10">
+          Transformed Africa through creative and responsive leaders.
+        </h1>
+      </div>
     </div>
   );
 }

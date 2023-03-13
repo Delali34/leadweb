@@ -24,7 +24,7 @@ function Navbar() {
   const [open1, setOpen1] = useState(false);
   return (
     <div>
-      <div className="absolute  top-[0] left-0 w-full lg:px-16 lg:py-1 px-8 py-2 bg-white hidden md:block border-b-purple-500 border">
+      <div className="absolute  top-[0] left-[0] w-full lg:px-16 lg:py-1 px-8 py-2 bg-white hidden md:block border-b-purple-500 border z-10">
         <div className="flex items-center justify-between  ">
           <Link href="/">
             <div className="">
@@ -37,7 +37,7 @@ function Navbar() {
               />
             </div>
           </Link>
-          <div className="text-black font-font text-sm xl:text-xl xl:space-x-10 space-x-5 hidden  md:flex">
+          <div className="text-black font-font text-sm 2xl:text-xl xl:space-x-10 space-x-5 hidden  md:flex">
             <Link href="/about">
               <h1
                 className={

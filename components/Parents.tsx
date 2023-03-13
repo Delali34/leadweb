@@ -231,7 +231,7 @@ const Future = () => {
           </motion.div>
         </motion.div>
       </div>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto xl:px-28 2xl:px-0">
         <h1 className="pt-24 font-font font-bold text-[#66319A] px-10 md:text-6xl text-4xl">
           Parents Development Programs
         </h1>

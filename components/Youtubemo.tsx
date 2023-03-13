@@ -2,6 +2,7 @@ import React from "react";
 import { FaYoutube } from "react-icons/fa";
 import Video from "@/components/video";
 import Image from "next/image";
+import Link from "next/link";
 function Youtubemo() {
   return (
     <div className=" w-full mt-10 md:hidden mb-28">
@@ -20,9 +21,15 @@ function Youtubemo() {
           Subscribe to our Youtube Channel
           <div className=" flex items-center gap-2">
             <FaYoutube className="text-red-600 lg:text-6xl text-4xl " />
-            <h1 className=" font-font text-white font-medium text-sm underline">
-              LeadAfrique tv--{">"}{" "}
-            </h1>
+            <Link
+              href="https://www.youtube.com/@leadafriquetv7715"
+              target="_blank"
+            >
+              {" "}
+              <h1 className=" font-font text-white font-medium text-sm underline">
+                LeadAfrique tv--{">"}{" "}
+              </h1>
+            </Link>
           </div>
         </h1>
       </div>

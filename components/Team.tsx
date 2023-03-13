@@ -13,9 +13,9 @@ import {} from "react-icons/ai";
 function Team() {
   return (
     <div className="bg-black">
-      <div className="max-w-7xl mx-auto pt-20 pb-40">
+      <div className="max-w-7xl mx-auto pt-20 pb-40 lg:px-20 2xl:px-0">
         <div>
-          <h1 className="lg:text-5xl font-font font-bold text-white md:text-3xl text-3xl text-center md:text-start ">
+          <h1 className="lg:text-5xl font-font font-bold text-white md:text-3xl text-3xl text-center md:text-start md:p-10 ">
             Meet the team
           </h1>
         </div>

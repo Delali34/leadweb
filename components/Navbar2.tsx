@@ -37,7 +37,7 @@ function Navbar() {
               />
             </div>
           </Link>
-          <div className="text-black font-font text-sm xl:text-xl xl:space-x-10 space-x-5 hidden  md:flex">
+          <div className="text-black font-font text-sm 2xl:text-xl xl:space-x-10 space-x-5 hidden  md:flex">
             <Link href="/about">
               <h1
                 className={

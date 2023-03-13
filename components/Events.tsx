@@ -12,7 +12,7 @@ function Events() {
 
   return (
     <div className="mt-24  lg:mt-36">
-      <div className="h-screen relative overflow-hidden flex-col text-left md:flex-row max-w-full px-6 md:px-40 justify-evenly mx-auto items-center">
+      <div className="h-screen relative overflow-hidden flex-col text-left md:flex-row max-w-full px-6 md:px-20 lg:px-32 2xl:px-44 justify-evenly mx-auto items-center ">
         <h1 className=" top-24  tracking-[10px] text-black text-sm md:text-4xl font-font text-center">
           Upcoming Events--
         </h1>
