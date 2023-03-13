@@ -20,7 +20,7 @@ export default function Hero({}: Props) {
           We <span className="text-white">{text}</span>
           <Cursor cursorColor="#7B2A93" />
         </h1>
-        <h1 className="text-white text-xl font-font xl:text-2xl md:text-2xl 2xl:text-4xl  pt-10 xl:pt-5 2xl:pt-10">
+        <h1 className="text-white text-sm font-font xl:text-2xl md:text-2xl 2xl:text-4xl  pt-7 xl:pt-5 2xl:pt-10">
           Transformed Africa through creative and responsive leaders.
         </h1>
       </div>
